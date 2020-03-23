@@ -129,7 +129,7 @@ table td { border: 1px solid #e8e8e8; }
 /** Page content */
 .page-content { padding: 30px 0; flex: 1; }
 
-.page-heading { font-size: 2rem; margin-top: 2rem; }
+.page-heading { font-size: 6rem; margin-top: 2rem; }
 
 .page-subheading { font-size: 1rem; font-style: italic; }
 
@@ -141,7 +141,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-meta { font-size: 0.875rem; color: #828282; }
 
-.post-link { display: block; font-size: 1.5rem; }
+.post-link { display: block; font-size: 1.4rem; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
