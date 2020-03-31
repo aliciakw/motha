@@ -4,15 +4,14 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    <h1 class="heading" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="md-flex flex-row">
+      <h2 class="subheading flex-grow">{{page.subtitle | escape }}</h2>
+      <time class="dt-published detail color-grey" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+    </div>  
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

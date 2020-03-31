@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HISTORY GLOWS RED"
-subtitle: "on Can't I Alter, Curtis Talwst Santiago"
+subtitle: "An Encounter with the Art of Curtis Talwst Santiago"
 ---
 
-I first encountered Curtis Talwst Santiago’s work when I popped into the Drawing Center in SoHo in and saw the first few rooms transformed into a multimedia installation titled "Can’t I Alter". With this collection of mixed media drawings, video and sculpture, Santiago brings viewers along with him on a journey through a world fed with personal experience, imagination and research.
+THE DRAWING CENTER in SoHo, sadly, is now closed due to the viral outbreak, but after it re-opens, I highly recommend checking out "Can't I Alter", an installation of the work of Curtis Talwst Santiago that will take you on an exploration of the artist's personal history that no one else could have dreamed up.
 
 From a stark childhood memory of his first encounter with *J’Ouvert*, a Trinidadi festival commemorating the first time formerly enslaved people could celebrate Carnival, and a recent quest into the origins of a 16th century Flemish painting depicting an African Knight of the Order or Santiago, the artist birthed his character ‘Sir Dingolay’. Serving as both the show’s hero and the artist’s alter ego, Sir Dingolay’s presence helps to unite the fruits of the artist’s versatile talents. (In addition to being a thoughtful painter, and an inspired 3-D artist, Santiago is widely acclaimed for his miniature dioramas and has also had a successful career as a Toronto-based dance-rock musician. This might explain his fluency with so many media)
 

@@ -68,7 +68,7 @@ figure > img {
 }
 
 figcaption {
-  font-size: $small-font-size;
+  @include relative-font-size(0.0875);
 }
 
 
@@ -182,7 +182,7 @@ pre {
   padding-left: $spacing-unit;
   @extend %clearfix;
 
-  @include media-query($on-laptop) {
+  @media (min-width: map-get($breakpoints, md)) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;

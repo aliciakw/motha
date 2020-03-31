@@ -1,33 +1,22 @@
-/**
- * Site header
- */
+/* ################## */
+/*       Layout       */
+/* ################## */
+.page-content {
+  padding: $spacing-unit 0;
+  flex: 1;
+}
+
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
 .site-header {
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
-
-.text-fancy {
-  @include relative-font-size(6);
-  line-height: 4rem;
-  letter-spacing: 0.35rem;
-  font-family: $monofett;
-}
-.site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
-}
-
+  
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -50,7 +39,7 @@
     }
   }
 
-  @include media-query($on-palm) {
+  @media (min-width: map-get($breakpoints, sm)) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
@@ -152,7 +141,11 @@
   width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@media (min-width: map-get($breakpoints, md)) {
+  @include relative-font-size(1.375);
+}
+
+@media (min-width: map-get($breakpoints, md)) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -165,7 +158,7 @@
   }
 }
 
-@include media-query($on-palm) {
+@media (min-width: map-get($breakpoints, sm)) {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -173,29 +166,46 @@
   }
 }
 
+/* ################## */
+/*     Typography     */
+/* ################## */
 
-
-/**
- * Page content
- */
-.page-content {
-  padding: $spacing-unit 0;
-  flex: 1;
-}
-
-.page-heading {
+.site-title {
   @include relative-font-size(6);
+  line-height: 5rem;
+  letter-spacing: 0.35rem;
   margin-top: 2rem;
+  word-break: break-all;
+
+  @media(min-width: map-get($breakpoints, md)) {
+    @include relative-font-size(6);
+    line-height: 5rem;
+  }
 }
 
-.page-subheading {
-  @include relative-font-size(1);
-  font-style: italic;
-}
-
-.post-list-heading {
+.heading {
   @include relative-font-size(1.75);
+  letter-spacing: 0.5rem;
+
+  @media (min-width: map-get($breakpoints, md)) {
+    @include relative-font-size(1.875);
+  }
 }
+
+.subheading {
+  @include relative-font-size(1.25);
+  letter-spacing: .1rem;
+  font-style: italic;
+
+  @media (min-width: map-get($breakpoints, md)) {
+    @include relative-font-size(1.125);
+  }
+}
+
+.detail {
+  @include relative-font-size(0.875);
+}
+
 
 .post-list {
   margin-left: 0;
@@ -206,58 +216,47 @@
   }
 }
 
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-}
-
 .post-link {
   display: block;
   @include relative-font-size(1.4);
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-  margin-bottom: $spacing-unit;
 }
 
 .post-title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+  @media (min-width: map-get($breakpoints, md)) {
+     @include relative-font-size(2.25);
   }
 }
 
-.post-content {
+.post-content { // TODO: delete
   margin-bottom: $spacing-unit;
 
   h2 {
     @include relative-font-size(2);
-
-    @include media-query($on-laptop) {
+    @media (min-width: map-get($breakpoints, md)) {
       @include relative-font-size(1.75);
     }
   }
 
   h3 {
     @include relative-font-size(1.625);
-
-    @include media-query($on-laptop) {
+    @media (min-width: map-get($breakpoints, md)) {
       @include relative-font-size(1.375);
     }
   }
 
   h4 {
     @include relative-font-size(1.25);
+    @media (min-width: map-get($breakpoints, md)) {
+      @include relative-font-size(1.125);
+    }
+  }
 
-    @include media-query($on-laptop) {
+  p {
+    @include relative-font-size(1.25);
+    @media (min-width: map-get($breakpoints, md)) {
       @include relative-font-size(1.125);
     }
   }
