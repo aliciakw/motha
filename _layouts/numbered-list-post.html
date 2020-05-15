@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="NumberedListPost" itemscope itemtype="http://schema.org/BlogPosting">
+  {%- include post-header.html -%}
+
+  <div class="md-flex flex-row flex-1">
+    <div class="md-w75" itemprop="articleBody">
+      {{ content }}
+    </div>
+    
+  </div>
+
+  {%- if site.disqus.shortname -%}
+  {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

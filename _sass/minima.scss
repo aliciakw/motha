@@ -67,7 +67,8 @@ $breakpoints: (
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  "minima/NumberedListPost"
 ;
 
 
@@ -85,15 +86,25 @@ $breakpoints: (
 .flex-col {
   flex-direction: column;
 }
-.flex-grow {
-  flex-grow: 1;
+.flex-grow { flex-grow: 1; }
+.flex-1 { flex-grow: 1; }
+.flex-2 { flex-grow: 2; }
+.flex-3 { flex-grow: 3; }
+.flex-4 { flex-grow: 4; }
+
+.md-w25 {
+  @media (min-width: map-get($breakpoints, md)) {
+    width: 25%;
+  }
 }
-.text-left {
-  text-align: left;
+.md-w75 {
+  @media (min-width: map-get($breakpoints, md)) {
+    width: 75%;
+  }
 }
-.text-right {
-  text-align: right;
-}
-.text-center {
-  text-align: center;
-}
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+.debug { border: 1px solid orangered; }
