@@ -53,9 +53,3 @@ At the time of their construction, most gothic cathedrals had labyrinths. Their 
 
 1. 
 Rhoen threatens to break the walls on the way back, so we settle on a run. Bouncing around the labyrinths' four quadrants I surge ahead of the others, only to fall behind when the path doubles back on itself in the wrong configuration. My lungs burn, I wonder if I’ll trip at the next turn, or the next. I think it’s over sooner than it is, accidentally puncturing the wall of one of the final bends before the neck of the exit. On leaving I circle the exterior, noting commemorative bricks, and reflecting on what just happened. There’s a sundial feature made by a man Rhoen knows from childhood. He exits, and then Aneken, in their own time. We don’t say much of anything. We’ve been on the same path but there were three separate journeys.
-
-<!-- 
-<figure>
-  <img src="https://uusociety.org/wp-content/uploads/2017/11/Awesome-Labyrinth.jpg" />
-  <figcaption>A labyrinth in the 7 course "Classical" pattern, which dates back to Crete in 500 BC.</figcaption>
-</figure> -->
