@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a rel="author" href="{{ "/" | relative_url }}">
-      <h1 class="site-title monofett">Thousands</h1>
+      <h1 class="site-title monofett">{{ site.title }}</h1>
     </a>
 
     <!-- {%- if page_paths -%}

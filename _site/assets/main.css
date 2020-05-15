@@ -18,7 +18,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 body { font: 400 1rem/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #efffe5; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 0; }
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
@@ -143,19 +143,19 @@ table td { border: 1px solid #e8e8e8; }
 /* ################## */
 /*     Typography     */
 /* ################## */
-.site-title { font-size: 6rem; line-height: 5rem; letter-spacing: 0.35rem; margin-top: 2rem; word-break: break-all; }
+.site-title { font-size: 5.5rem; line-height: 5rem; letter-spacing: 0.35rem; margin-top: 2rem; word-break: break-all; }
 
 @media (min-width: 832px) { .site-title { font-size: 6rem; line-height: 5rem; } }
 
-.heading { font-size: 1.75rem; letter-spacing: 0.5rem; }
+.heading { font-size: 1.75rem; letter-spacing: 0.5rem; margin: 1rem 0; }
 
 @media (min-width: 832px) { .heading { font-size: 1.875rem; } }
 
-.subheading { font-size: 1.25rem; letter-spacing: .1rem; font-style: italic; }
+.subheading { font-size: 1.25rem; letter-spacing: .1rem; font-style: italic; margin-bottom: 1rem; }
 
 @media (min-width: 832px) { .subheading { font-size: 1.125rem; } }
 
-.detail { font-size: 0.875rem; }
+.detail { font-size: 0.875rem; margin-bottom: 0.5rem; }
 
 .post-list { margin-left: 0; list-style: none; }
 
@@ -308,6 +308,19 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
+.NumberedListPost h3 { font-size: 1.75rem; letter-spacing: 0.5rem; margin: 1rem 0; }
+
+.NumberedListPost figure { max-width: 100%; }
+
+.NumberedListPost figure figcaption { margin-top: 0.5rem; }
+
+.NumberedListPost ol { list-style-position: inside; list-style-type: lower-roman; margin-left: 0; margin-bottom: 3rem; }
+
+.NumberedListPost ol li { margin-bottom: 1rem; }
+
+@media (min-width: 832px) { .NumberedListPost h3 { font-size: 1.875rem; }
+  .NumberedListPost figure { max-width: 380px; } }
+
 .flex { display: flex; }
 
 @media (min-width: 832px) { .md-flex { display: flex; } }
@@ -318,10 +331,24 @@ table td { border: 1px solid #e8e8e8; }
 
 .flex-grow { flex-grow: 1; }
 
+.flex-1 { flex-grow: 1; }
+
+.flex-2 { flex-grow: 2; }
+
+.flex-3 { flex-grow: 3; }
+
+.flex-4 { flex-grow: 4; }
+
+@media (min-width: 832px) { .md-w25 { width: 25%; } }
+
+@media (min-width: 832px) { .md-w75 { width: 75%; } }
+
 .text-left { text-align: left; }
 
 .text-right { text-align: right; }
 
 .text-center { text-align: center; }
+
+.debug { border: 1px solid orangered; }
 
 /*# sourceMappingURL=main.css.map */

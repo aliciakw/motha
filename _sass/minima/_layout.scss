@@ -171,7 +171,7 @@
 /* ################## */
 
 .site-title {
-  @include relative-font-size(6);
+  @include relative-font-size(5.5);
   line-height: 5rem;
   letter-spacing: 0.35rem;
   margin-top: 2rem;
@@ -186,9 +186,11 @@
 .heading {
   @include relative-font-size(1.75);
   letter-spacing: 0.5rem;
+  margin: 1rem 0;
 
   @media (min-width: map-get($breakpoints, md)) {
     @include relative-font-size(1.875);
+    
   }
 }
 
@@ -196,6 +198,7 @@
   @include relative-font-size(1.25);
   letter-spacing: .1rem;
   font-style: italic;
+  margin-bottom: 1rem;
 
   @media (min-width: map-get($breakpoints, md)) {
     @include relative-font-size(1.125);
@@ -204,6 +207,7 @@
 
 .detail {
   @include relative-font-size(0.875);
+  margin-bottom: 0.5rem;
 }
 
 
