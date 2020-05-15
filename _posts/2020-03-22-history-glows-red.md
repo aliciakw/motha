@@ -2,6 +2,7 @@
 layout: post
 title:  "HISTORY GLOWS RED"
 subtitle: "An Encounter with the Art of Curtis Talwst Santiago"
+location: "New York, NY"
 ---
 
 THE DRAWING CENTER in SoHo, sadly, is now closed due to the viral outbreak, but after it re-opens, I highly recommend checking out "Can't I Alter", an installation of the work of Curtis Talwst Santiago that will take you on an exploration of the artist's personal history that no one else could have dreamed up.
