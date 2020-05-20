@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="Post" itemscope itemtype="http://schema.org/BlogPosting">
   {%- include post-header.html -%}
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+  <div class="md-flex flex-row flex-1">
+    <div class="md-w75" itemprop="articleBody">
+      {{ content }}
+    </div>
   </div>
 
   {%- if site.disqus.shortname -%}

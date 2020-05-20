@@ -1,5 +1,5 @@
 ---
-layout: numbered-list-post
+layout: post
 title:  "EVERYTHING IS AN ECHO OF ITSELF"
 subtitle: "An incomplete history of walking labyrinths"
 location: "Burlington, Vermont"

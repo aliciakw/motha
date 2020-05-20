@@ -308,18 +308,18 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
-.NumberedListPost h3 { font-size: 1.75rem; letter-spacing: 0.5rem; margin: 1rem 0; }
+.Post h3 { font-size: 1.75rem; letter-spacing: 0.5rem; margin: 1rem 0; }
 
-.NumberedListPost figure { max-width: 100%; }
+.Post figure { max-width: 100%; margin: 2rem 0; }
 
-.NumberedListPost figure figcaption { margin-top: 0.5rem; }
+.Post figure figcaption { margin-top: 0.5rem; }
 
-.NumberedListPost ol { list-style-position: inside; list-style-type: lower-roman; margin-left: 0; margin-bottom: 3rem; }
+.Post ol { list-style-position: inside; list-style-type: lower-roman; margin-left: 0; margin-bottom: 3rem; }
 
-.NumberedListPost ol li { margin-bottom: 1rem; }
+.Post ol li { margin-bottom: 1rem; }
 
-@media (min-width: 832px) { .NumberedListPost h3 { font-size: 1.875rem; }
-  .NumberedListPost figure { max-width: 380px; } }
+@media (min-width: 832px) { .Post h3 { font-size: 1.875rem; }
+  .Post figure { max-width: 380px; } }
 
 .flex { display: flex; }
 
