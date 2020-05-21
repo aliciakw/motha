@@ -5,13 +5,6 @@
     margin: 1rem 0;
   }
 
-  figure { 
-    max-width: 100%;
-    margin: 2rem 0;
-  }
-
-  figure figcaption { margin-top: 0.5rem; }
-
   ol {
     list-style-position: inside;
     list-style-type: lower-roman;
@@ -24,7 +17,6 @@
 
   @media (min-width: map-get($breakpoints, md)) {
     h3 { @include relative-font-size(1.875); }
-    figure { max-width: 380px; }
   }
 }
 
