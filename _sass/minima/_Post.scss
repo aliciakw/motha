@@ -18,5 +18,10 @@
   @media (min-width: map-get($breakpoints, md)) {
     h3 { @include relative-font-size(1.875); }
   }
+
+  &__spacer {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
 

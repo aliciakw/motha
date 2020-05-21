@@ -310,11 +310,15 @@ table td { border: 1px solid #e8e8e8; }
 
 .DoubleImageComponent { margin: 2rem 0; }
 
-.DoubleImageComponent figure { display: flex; flex-direction: column; justify-content: flex-end; }
+.DoubleImageComponent figure { display: flex; flex-direction: column; justify-content: flex-end; flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
+
+.DoubleImageComponent figure:first-of-type { margin-bottom: 2rem; }
 
 .DoubleImageComponent figure figcaption { margin-top: 0.5rem; font-style: italic; }
 
 @media (min-width: 832px) { .DoubleImageComponent { display: flex; }
+  .DoubleImageComponent figure { margin-right: 0.5rem; margin-bottom: 0; }
+  .DoubleImageComponent figure:first-of-type { margin-bottom: 0; }
   .DoubleImageComponent figure > img { max-height: 250px; align-self: flex-start; } }
 
 .ImageComponent figure { max-width: 100%; margin: 2rem 0; }
@@ -330,6 +334,8 @@ table td { border: 1px solid #e8e8e8; }
 .Post ol li { margin-bottom: 1rem; }
 
 @media (min-width: 832px) { .Post h3 { font-size: 1.875rem; } }
+
+.Post__spacer { width: 100%; margin-bottom: 1rem; }
 
 .flex { display: flex; }
 
