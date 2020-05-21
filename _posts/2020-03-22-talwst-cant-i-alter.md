@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HISTORY GLOWS RED"
-subtitle: Encountering with the Art of Curtis Talwst Santiago"
+subtitle: Encountering the Art of Curtis Talwst Santiago
 location: "New York, NY"
 ---
 
