@@ -1,0 +1,35 @@
+.DoubleImageComponent {
+  margin: 2rem 0;
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+    &:first-of-type {
+      margin-bottom: 2rem;
+    }
+  }
+
+  figure figcaption { 
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+
+  @media (min-width: map-get($breakpoints, md)) {
+    display: flex;
+    figure {
+      margin-right: 0.5rem;
+      margin-bottom: 0;
+      &:first-of-type {
+        margin-bottom: 0;
+      }
+    }
+    figure > img {
+      max-height: 250px;
+      align-self: flex-start;
+    }
+  }
+}

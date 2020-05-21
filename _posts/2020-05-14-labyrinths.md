@@ -1,14 +1,16 @@
 ---
-layout: numbered-list-post
+layout: post
 title:  "EVERYTHING IS AN ECHO OF ITSELF"
 subtitle: "An incomplete history of walking labyrinths"
 location: "Burlington, Vermont"
 ---
 
-<figure>
-  <img src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg" />
-  <figcaption>The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.</figcaption>
-</figure>
+{%
+ include image-component.html 
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg"
+ alt="A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass."
+ caption="The labyrinth at All Saints Community Labyrinth follows the Chartes pattern."
+%}
 
 ### Entering
 
@@ -21,10 +23,12 @@ These humans will make metaphors out of anything. We also walk around a lot, get
 1. 
 “If you liked that labyrinth, I have another one for you,” Rhoen said, and our whole house piled into the car the next morning, parking at an empty parking lot next to a scrubby garden. On one side of the garden was a freshly plowed farm and a little marsh; a building that must have been the church was on the other. A sign with a lengthy poem invited all who read it to enter. Crossing a small bridge, I strode straight into the labyrinth. Rhoen followed after spending time addressing the plaques and stone statues. Aneken sat on a bench looking around. They started when they were ready. 
 
-<figure>
-  <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg" />
-  <figcaption>Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.</figcaption>
-</figure>
+{%
+ include image-component.html 
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg"
+ alt="A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram."
+ caption="Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral."
+%}
 
 ### Arriving
 
@@ -37,11 +41,12 @@ Lauren Artress started the Labyrinth Movement after a 1991 encounter with Jean H
 1. 
 I tell myself not to feel underwhelmed at the puddle of gravel that awaits me. I remember when I turned twelve and felt cheated when I realized my birthday did not grant me any more abilities or privileges and, crying, I asked my mother why. I felt even sadder when she told me there wasn’t an answer. Rhoen and then Aneken arrive too and I think about all the highschool kids forced to have quarantine graduations. How important is a threshold to mark the passage of time? I notice that around the large puddle of gray gravel there are smaller rays of red gravel and I put out my arms and start to spin, til red merges with gray and farm merges with road and mirror neurons turn three human bodies into oversized imitations of the year’s last snow flurries swirling in space. For a moment, we’re all here. Eventually we won’t be.
 
-
-<figure>
-  <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg" />
-  <figcaption>Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.</figcaption>
-</figure>
+{%
+ include image-component.html 
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg"
+ alt="Black and white scanned images of two silver coins bearing the Greek letters K N O."
+ caption="Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern."
+%}
 
 ### Leaving
 
@@ -52,4 +57,4 @@ Now all that’s left is to leave the way you came. Exiting the center, I feel l
 At the time of their construction, most gothic cathedrals had labyrinths. Their exact function is not precisely known, but clues survive: a description of French clerics using a floor labyrinth in an Easter ceremony; illustrations of pilgrims traversing the labyrinth on their knees; the late 18th century French word for cathedral labyrinths being “chemin de Jerusalem” -- literally ‘path to Jerusalem’, which Christians view as the Holy Land. Most of these cathedral labyrinths were eventually deemed ‘distracting’ and removed. This makes Chartres an outlier. Despite the labyrinth movement’s adoption by plenty of fringey Christians, mainstream ones dismiss the movement as a New Age-y fad at best, vaguely pagan at worst. And I suppose it is both of these things. Now that I have been initiated, it seems Iabyrinths are everywhere, although not dramatically advertised. And although the four-quadrant unicursal Chartres design was the one that initially inspired Artress, 20th century labyrinths might also opt for the more unified “Classical” design embossed on Cretan coins from 430 BCE, invent their own design, or choose a unicursal maze pattern from Celtic, Hindu or Native American lore. There are no hard and fast rules. Cultural context here is treated as secondary, almost decorative. The primary thing is the walking.
 
 1. 
-Rhoen threatens to break the walls on the way back, so we settle on a run. Bouncing around the labyrinths' four quadrants I surge ahead of the others, only to fall behind when the path doubles back on itself in the wrong configuration. My lungs burn, I wonder if I’ll trip at the next turn, or the next. I think it’s over sooner than it is, accidentally puncturing the wall of one of the final bends before the neck of the exit. On leaving I circle the exterior, noting commemorative bricks, and reflecting on what just happened. There’s a sundial feature made by a man Rhoen knows from childhood. He exits, and then Aneken, in their own time. We don’t say much of anything. We’ve been on the same path but there were three separate journeys.
+Rhoen threatens to break the walls on the way back, so we settle on a run. Bouncing around the labyrinths' four quadrants I surge ahead of the others, only to fall behind when the path switchbacks in the opposite direction. My lungs burn, I wonder if I’ll trip at the next turn, or the next. I think it’s over sooner than it is, accidentally puncturing the wall of one of the final bends before the neck of the exit. On leaving I circle the exterior, noting commemorative bricks, and reflecting on what just happened. There’s a sundial feature made by a man Rhoen knows from childhood. He exits, and then Aneken, in their own time. We don’t say much of anything. We’ve been on the same path but there were three separate journeys.
