@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T22:08:48-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>Alicia No blogs about culture + stuff.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;figure&gt;
-  &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg&quot; /&gt;
-  &lt;figcaption&gt;The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.&lt;/figcaption&gt;
-&lt;/figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T22:17:00-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>Alicia No blogs about culture + stuff.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg&quot; alt=&quot;A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass.&quot; /&gt;
+    &lt;figcaption&gt;The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;entering&quot;&gt;Entering&lt;/h3&gt;
 
@@ -17,10 +19,12 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;figure&gt;
-  &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg&quot; /&gt;
-  &lt;figcaption&gt;Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;ImageComponent&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg&quot; alt=&quot;A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram.&quot; /&gt;
+    &lt;figcaption&gt;Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;arriving&quot;&gt;Arriving&lt;/h3&gt;
 
@@ -36,10 +40,12 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;figure&gt;
-  &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg&quot; /&gt;
-  &lt;figcaption&gt;Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div class=&quot;ImageComponent&quot;&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg&quot; alt=&quot;Black and white scanned images of two silver coins bearing the Greek letters K N O.&quot; /&gt;
+    &lt;figcaption&gt;Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;leaving&quot;&gt;Leaving&lt;/h3&gt;
 

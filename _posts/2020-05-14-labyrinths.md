@@ -5,10 +5,12 @@ subtitle: "An incomplete history of walking labyrinths"
 location: "Burlington, Vermont"
 ---
 
-<figure>
-  <img src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg" />
-  <figcaption>The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.</figcaption>
-</figure>
+{%
+ include image-component.html 
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg"
+ alt="A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass."
+ caption="The labyrinth at All Saints Community Labyrinth follows the Chartes pattern."
+%}
 
 ### Entering
 
@@ -21,10 +23,12 @@ These humans will make metaphors out of anything. We also walk around a lot, get
 1. 
 “If you liked that labyrinth, I have another one for you,” Rhoen said, and our whole house piled into the car the next morning, parking at an empty parking lot next to a scrubby garden. On one side of the garden was a freshly plowed farm and a little marsh; a building that must have been the church was on the other. A sign with a lengthy poem invited all who read it to enter. Crossing a small bridge, I strode straight into the labyrinth. Rhoen followed after spending time addressing the plaques and stone statues. Aneken sat on a bench looking around. They started when they were ready. 
 
-<figure>
-  <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg" />
-  <figcaption>Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.</figcaption>
-</figure>
+{%
+ include image-component.html 
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg"
+ alt="A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram."
+ caption="Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral."
+%}
 
 ### Arriving
 
@@ -37,11 +41,12 @@ Lauren Artress started the Labyrinth Movement after a 1991 encounter with Jean H
 1. 
 I tell myself not to feel underwhelmed at the puddle of gravel that awaits me. I remember when I turned twelve and felt cheated when I realized my birthday did not grant me any more abilities or privileges and, crying, I asked my mother why. I felt even sadder when she told me there wasn’t an answer. Rhoen and then Aneken arrive too and I think about all the highschool kids forced to have quarantine graduations. How important is a threshold to mark the passage of time? I notice that around the large puddle of gray gravel there are smaller rays of red gravel and I put out my arms and start to spin, til red merges with gray and farm merges with road and mirror neurons turn three human bodies into oversized imitations of the year’s last snow flurries swirling in space. For a moment, we’re all here. Eventually we won’t be.
 
-
-<figure>
-  <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg" />
-  <figcaption>Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.</figcaption>
-</figure>
+{%
+ include image-component.html 
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg"
+ alt="Black and white scanned images of two silver coins bearing the Greek letters K N O."
+ caption="Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern."
+%}
 
 ### Leaving
 
