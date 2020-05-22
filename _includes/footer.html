@@ -1,20 +1,26 @@
-<footer class="site-footer">
+<footer class="Footer">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
   <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <img src="/assets/mot.jpg" width="200" alt="An image of a Mother of Thousands plant with many small plantlets forming on its waxy green leaves." />
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{site.description}}</p>
-        <p>I like <a class="u-email" href="mailto:{{ site.email }}">chit-chat</a>.</p>
-        <p>&copy; 2020 Alicia No</p>
-      </div>
-
+    <div class="flex flex-row justify-end">
+      <div class="md-flex flex-grow"> &nbsp;</div>
+      <form action="https://tinyletter.com/m-o-t" method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://tinyletter.com/m-o-t', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <h4 class="subheading">Never miss a post!</h4>
+        <p class="detail mb1">(they can be sporadic)</p>
+        <div class="Footer__fieldset flex flex-col">
+          <label for="tlemail" class="sr-only">Enter your email address</label>
+        
+          <input class="Footer__input text-center mb_5" type="text" name="email" placeholder="email address" id="tlemail" />
+          <input type="hidden" value="1" name="embed" />
+          <input class="Footer__button" type="submit" value="subscribe" />
+        </div>
+      </form>
     </div>
-
+    <div class="flex flex-col align-center">
+      <img src="/assets/mot.jpg" width="175"
+        alt="An image of a Mother of Thousands plant with many small plantlets forming on its waxy green leaves." />
+      <p class="text-center mt1">The Motha of Thousands, &copy; Alicia No, 2020</p>
+    <div>
   </div>
-
 </footer>
