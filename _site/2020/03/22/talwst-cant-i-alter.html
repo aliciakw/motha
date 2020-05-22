@@ -42,13 +42,13 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="Post" itemscope itemtype="http://schema.org/BlogPosting"><header class="post-header">
-  <h1 class="heading" itemprop="name headline">HISTORY GLOWS RED</h1>
-  <h2 class="subheading flex-grow">Encountering the Art of Curtis Talwst Santiago</h2>
+  <h1 class="heading mt1 mb1" itemprop="name headline">HISTORY GLOWS RED</h1>
+  <h2 class="subheading italic mb1 flex-grow">Encountering the Art of Curtis Talwst Santiago</h2>
   <div class="md-flex flex-row">
-    <p class="dt-published detail md-flex flex-grow">
+    <p class="dt-published detail mb_5 md-flex flex-grow">
       <time datetime="2020-03-22T00:00:00-04:00" itemprop="datePublished">Mar 22, 2020</time>
     </p>
-    <p class="dt-published detail">New York, NY</p>
+    <p class="dt-published detail mb_5">New York, NY</p>
   </div>
 </header><div class="md-flex flex-row flex-1">
     <div class="md-w75" itemprop="articleBody">
@@ -125,25 +125,31 @@
 </article>
 
       </div>
-    </main><footer class="site-footer">
+    </main><footer class="Footer">
   <data class="u-url" href="/"></data>
-
   <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <img src="/assets/mot.jpg" width="200" alt="An image of a Mother of Thousands plant with many small plantlets forming on its waxy green leaves." />
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>Alicia No blogs about culture + stuff.</p>
-        <p>I like <a class="u-email" href="mailto:aliciayesorno@gmail.com">chit-chat</a>.</p>
-        <p>&copy; 2020 Alicia No</p>
-      </div>
-
+    <div class="flex flex-row justify-end">
+      <div class="md-flex flex-grow"> &nbsp;</div>
+      <form action="https://tinyletter.com/m-o-t" method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://tinyletter.com/m-o-t', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <h4 class="subheading">Never miss a post!</h4>
+        <p class="detail mb1">(they can be sporadic)</p>
+        <div class="Footer__fieldset flex flex-col">
+          <label for="tlemail" class="sr-only">Enter your email address</label>
+        
+          <input class="Footer__input text-center mb_5" type="text" name="email" placeholder="email address" id="tlemail" />
+          <input type="hidden" value="1" name="embed" />
+          <input class="Footer__button" type="submit" value="subscribe" />
+        </div>
+      </form>
     </div>
-
+    <div class="flex flex-col align-center">
+      <img src="/assets/mot.jpg" width="175"
+        alt="An image of a Mother of Thousands plant with many small plantlets forming on its waxy green leaves." />
+      <p class="text-center mt1">The Motha of Thousands, &copy; Alicia No, 2020</p>
+    <div>
   </div>
-
 </footer>
 </body>
 

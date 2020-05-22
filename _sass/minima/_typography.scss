@@ -1,0 +1,82 @@
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.bold { font-style: bold; }
+.italic { font-style: italic; }
+
+.site-title {
+  @include relative-font-size(5.5);
+  line-height: 5rem;
+  letter-spacing: 0.35rem;
+  margin-top: 2rem;
+  word-break: break-all;
+
+  @media(min-width: map-get($breakpoints, md)) {
+    @include relative-font-size(6);
+    line-height: 5rem;
+  }
+}
+
+.heading {
+  @include relative-font-size(1.75);
+  letter-spacing: 0.5rem;
+
+  @media (min-width: map-get($breakpoints, md)) {
+    @include relative-font-size(1.875);
+    
+  }
+}
+
+.subheading {
+  @include relative-font-size(1.25);
+  letter-spacing: .1rem;
+
+  @media (min-width: map-get($breakpoints, md)) {
+    @include relative-font-size(1.125);
+  }
+}
+
+.detail {
+  @include relative-font-size(0.875);
+}
+
+.post-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+  @media (min-width: map-get($breakpoints, md)) {
+     @include relative-font-size(2.25);
+  }
+}
+
+.post-content { // TODO: delete
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    @include relative-font-size(2);
+    @media (min-width: map-get($breakpoints, md)) {
+      @include relative-font-size(1.75);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+    @media (min-width: map-get($breakpoints, md)) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+    @media (min-width: map-get($breakpoints, md)) {
+      @include relative-font-size(1.125);
+    }
+  }
+
+  p {
+    @include relative-font-size(1.25);
+    @media (min-width: map-get($breakpoints, md)) {
+      @include relative-font-size(1.125);
+    }
+  }
+}

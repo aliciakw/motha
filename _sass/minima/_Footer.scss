@@ -1,0 +1,38 @@
+.Footer {
+  margin: $spacing-unit 0;
+
+  form {
+    width: 100%;
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  &__input {
+    @include relative-font-size(0.875);
+    letter-spacing: .075rem;
+    border: none;
+    padding: 10px;
+  }
+
+  &__button {
+    @include relative-font-size(0.875);
+    letter-spacing: .075rem;
+    color: $leaf-green;
+    background-color: $black;
+    border: none;
+    padding: 10px 20px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (min-width: map-get($breakpoints, md)) {
+    form {
+      width: auto;
+    }
+
+    &__input {
+      width: 12rem;
+    }
+  }
+}

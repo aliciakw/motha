@@ -13,7 +13,7 @@ $monofett: "Monofett", cursive;
   font-family: $monofett;
 }
 
-$spacing-unit:     30px !default;
+$spacing-unit:     2rem !default;
 
 $mint-green: #efffe5;
 $leaf-green: #78cc6e;
@@ -68,7 +68,9 @@ $breakpoints: (
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting",
+  "minima/typography",
   "minima/DoubleImageComponent",
+  "minima/Footer",
   "minima/ImageComponent",
   "minima/Post"
 ;
@@ -93,6 +95,24 @@ $breakpoints: (
 .flex-2 { flex-grow: 2; }
 .flex-3 { flex-grow: 3; }
 .flex-4 { flex-grow: 4; }
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-center {
+  align-items: center;
+}
 
 .md-w25 {
   @media (min-width: map-get($breakpoints, md)) {
@@ -105,8 +125,28 @@ $breakpoints: (
   }
 }
 
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-.text-center { text-align: center; }
-
 .debug { border: 1px solid orangered; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.mt_5 {
+  margin-top: 0.5rem;
+}
+.mt1 {
+  margin-top: 1rem;
+}
+.mb_5 {
+  margin-bottom: 0.5rem;
+}
+.mb1 {
+  margin-bottom: 1rem;
+}
