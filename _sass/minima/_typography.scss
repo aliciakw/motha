@@ -3,6 +3,11 @@
 .text-center { text-align: center; }
 .bold { font-style: bold; }
 .italic { font-style: italic; }
+.underlined {
+  border-bottom: 1px solid $charcoal;
+  padding-bottom: 0.25rem;
+  
+}
 
 .site-title {
   @include relative-font-size(5.5);
