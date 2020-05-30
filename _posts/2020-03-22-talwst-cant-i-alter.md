@@ -3,6 +3,9 @@ layout: post
 title:  "HISTORY GLOWS RED"
 subtitle: Encountering the Art of Curtis Talwst Santiago
 location: "New York, NY"
+refs_list: 
+  - “Curtis Talwst Santiago - Can't I Alter,” last modified 2020, http://www.drawingcenter.org/en/drawingcenter/5/exhibitions/6/current/2245/curtis-talwst-santiago/.
+  - “Curtis Talwst Santiago,” last modified 2020, https://www.curtissantiago.art/.
 ---
 
 {%
@@ -12,6 +15,8 @@ location: "New York, NY"
 %}
 
 It's hard to describe how experiencing the collection of work by Curtis Talwst Santiago on view at the Drawing Center made me feel. So I'll settle for describing what I saw in this show entitled "Can't I Alter".
+
+<div class="Post__spacer"></div>
 
 Upon entering, visitors first encounter a life-sized, beaded suit of armor, nestled in an arch of crumbling plaster supported by iron construction scaffolding. The scenery evokes ancient ruins and the streets of New York, which fits. The work here is the result of a journey that has taken Santiago all over the globe.
 

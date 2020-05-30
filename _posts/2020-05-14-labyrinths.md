@@ -63,26 +63,3 @@ At the time of their construction, most gothic cathedrals had labyrinths.<sup>4<
 
 1. 
 Rhoen threatens to break the walls on the way back, so we settle on a run. Bouncing around the labyrinths' four quadrants I surge ahead of the others, only to fall behind when the path switchbacks in the opposite direction. My lungs burn, I wonder if I’ll trip at the next turn, or the next. I think it’s over sooner than it is, accidentally puncturing the wall of one of the final bends before the neck of the exit. On leaving I circle the exterior, noting commemorative bricks, and reflecting on what just happened. There’s a sundial feature made by a man Rhoen knows from childhood. He exits, and then Aneken, in their own time. We don’t say much of anything. We’ve been on the same path but there were three separate journeys.
-
-{%
-  include references.html
-  refs_list=page.refs_list
-%}
-
-<!-- <div class="Post__References mt1">
-  <h4 class="subheading underlined mb1">References</h4>
-  <ol> 
-    <li>
-      “Labyrinth,” last modified May 7, 2020, https://en.wikipedia.org/wiki/Labyrinth.
-    </li>
-    <li>
-      “Veriditas Staff in the service of the Labyrinth,” last modified 2019, https://veriditas.org/staff.
-    </li>
-    <li>
-      "New to the Labyrinth?" last modified 2019, https://veriditas.org/New-to-the-Labyrinth.
-    </li>
-    <li>
-      "Chartres Cathedral," last modified May 28, 2020, https://en.wikipedia.org/wiki/Chartres_Cathedral.
-    </li>
-  </ol>
-</div> -->
