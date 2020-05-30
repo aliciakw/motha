@@ -14,6 +14,12 @@
 
   ol li { margin-bottom: 1rem; }
 
+  &__References {
+    ol {
+      list-style-type: decimal;
+    }
+  }
+
 
   @media (min-width: map-get($breakpoints, md)) {
     h3 { @include relative-font-size(1.875); }
