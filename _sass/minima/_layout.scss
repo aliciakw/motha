@@ -6,10 +6,6 @@
   flex: 1;
 }
 
-.post-header {
-  margin-bottom: $spacing-unit;
-}
-
 .site-header {
   min-height: $spacing-unit * 1.865;
 
@@ -96,13 +92,4 @@
 .post-list {
   margin-left: 0;
   list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
-
-.post-link {
-  display: block;
-  @include relative-font-size(1.4);
 }
