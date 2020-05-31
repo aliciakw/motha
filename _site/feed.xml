@@ -1,31 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T18:29:05-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot; id=&quot;labyrinths__all-saints&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T19:18:31-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot; id=&quot;labyrinths__all-saints&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg&quot; alt=&quot;A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass.&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;labyrinths__all-saints&quot;)) {
-      var images = document.getElementById(&quot;labyrinths__all-saints&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;labyrinths__all-saints&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;labyrinths__all-saints&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -45,32 +27,14 @@
 
 &lt;div class=&quot;ImageComponent&quot; id=&quot;labyrinths__artress&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg&quot; alt=&quot;A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram.&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;labyrinths__artress&quot;)) {
-      var images = document.getElementById(&quot;labyrinths__artress&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;labyrinths__artress&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;labyrinths__artress&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -90,32 +54,14 @@
 
 &lt;div class=&quot;ImageComponent&quot; id=&quot;labyrinths__cretan-coins&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg&quot; alt=&quot;Black and white scanned images of two silver coins bearing the Greek letters K N O.&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;labyrinths__cretan-coins&quot;)) {
-      var images = document.getElementById(&quot;labyrinths__cretan-coins&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;labyrinths__cretan-coins&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;labyrinths__cretan-coins&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -133,32 +79,14 @@
   &lt;/li&gt;
 &lt;/ol&gt;</content><author><name></name></author><summary type="html">The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.</summary></entry><entry><title type="html">HISTORY GLOWS RED</title><link href="http://localhost:4000/2020/03/22/talwst-cant-i-alter.html" rel="alternate" type="text/html" title="HISTORY GLOWS RED" /><published>2020-03-22T00:00:00-04:00</published><updated>2020-03-22T00:00:00-04:00</updated><id>http://localhost:4000/2020/03/22/talwst-cant-i-alter</id><content type="html" xml:base="http://localhost:4000/2020/03/22/talwst-cant-i-alter.html">&lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__knight-diorama&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--dWZ_0RMF--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e42850d2e43af68f9c786a5841b3554e/CSA-34a-SC.jpg?1200&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;Artist as Knight (self portrait). Curtis Talwst Santiago. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;talwst__knight-diorama&quot;)) {
-      var images = document.getElementById(&quot;talwst__knight-diorama&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;talwst__knight-diorama&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;talwst__knight-diorama&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -170,32 +98,14 @@
 
 &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__install-1&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--YtKPvDxr--/c_limit,g_center,h_65535,w_2500/fl_keep_iptc.progressive,q_95/IMG_2004_paj12w.jpg?2500&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;Installation view at the Drawing Center in February of 2020.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;talwst__install-1&quot;)) {
-      var images = document.getElementById(&quot;talwst__install-1&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;talwst__install-1&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;talwst__install-1&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -209,32 +119,14 @@
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
     &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__morte-do-cavaliero&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--atUKTDMv--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e249373eab34260530f3d240a269f61a/CSA-9-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;&quot;A morte do cavaleiro prateado.&quot; Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;talwst__morte-do-cavaliero&quot;)) {
-      var images = document.getElementById(&quot;talwst__morte-do-cavaliero&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;talwst__morte-do-cavaliero&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;talwst__morte-do-cavaliero&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -242,32 +134,14 @@
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
     &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__ancestral-vision&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--xejNTiIN--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/60540d89c0012c97d3e5fe228282b82f/CSA-7-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;&quot;Red Face Ancestral Vision 1.&quot; Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;talwst__ancestral-vision&quot;)) {
-      var images = document.getElementById(&quot;talwst__ancestral-vision&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;talwst__ancestral-vision&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;talwst__ancestral-vision&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -284,32 +158,14 @@
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
     &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__promise&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--96jRsjOb--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/17bb9e11cf6b1ef5b5d7090a21b25d7a/CSA-10-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;&quot;The Four of Them Made a Promise.&quot; Spray paint, oil, charcoal, pastel, acrylic on canvas. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;talwst__promise&quot;)) {
-      var images = document.getElementById(&quot;talwst__promise&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;talwst__promise&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;talwst__promise&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -317,32 +173,14 @@
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
     &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__sir-dingolay&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--7zYpIEB3--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/IMG_2020_qhrl27.jpg?1200&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;&quot;Sir Dingolay&quot;. Video. 2020.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;talwst__sir-dingolay&quot;)) {
-      var images = document.getElementById(&quot;talwst__sir-dingolay&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;talwst__sir-dingolay&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;talwst__sir-dingolay&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -357,63 +195,27 @@
 
 &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__santiago-with-knight&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/curtis-talwst-santiago-with-armor.jpg&quot; alt=&quot;&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;The artist poses next to &quot;African Knight I&quot; (wire and beads, on steel armature, 2018).&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;talwst__santiago-with-knight&quot;)) {
-      var images = document.getElementById(&quot;talwst__santiago-with-knight&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;talwst__santiago-with-knight&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;talwst__santiago-with-knight&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Experiencing this body of work gave me a sense of hope that’s hard to describe. Seeing the artist presenting a heavily realized vision of his personal history — not a history that was written for him by the institution, but a history he sought out and nurtured and imagined into reality — seemed to acknowledge a secret desire I’ve secretly always had for a “better” history. As one of the mutts of the post-colonial society we call the United States, my history always ran contrary to the versions I learned about in school. There are so many blanks, blanks that there will never be adequate records to fill. In “Can’t I Alter”, Santiago seems to argue that with some creativity, a person can take this on. That it’s worth looking for your ancestors, even if their forms come a bit fuzzy. It’s totally possible to create your own mythology. Who’s to say your mythology is less real.&lt;/p&gt;</content><author><name></name></author><summary type="html">Artist as Knight (self portrait). Curtis Talwst Santiago. 2018</summary></entry><entry><title type="html">PINES</title><link href="http://localhost:4000/2020/03/11/pines.html" rel="alternate" type="text/html" title="PINES" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/2020/03/11/pines</id><content type="html" xml:base="http://localhost:4000/2020/03/11/pines.html">&lt;div class=&quot;ImageComponent&quot; id=&quot;pines__shake-video-still&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png&quot; alt=&quot;070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others.&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;The music video for 070 Shake's song &quot;Pines&quot; includes a gnarly fight scene.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;pines__shake-video-still&quot;)) {
-      var images = document.getElementById(&quot;pines__shake-video-still&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;pines__shake-video-still&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;pines__shake-video-still&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -435,32 +237,14 @@
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
     &lt;div class=&quot;ImageComponent&quot; id=&quot;pines__leadbelly&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/07/Huddie_Ledbetter_%28Leadbelly%29_taken_by_Alan_Lomax.jpg&quot; alt=&quot;A black and white photograph of Huddie Ledbetter wearing a plaid suit and holding an acoustic guitar&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;A photograph of Huddie &quot;Leadbelly&quot; Ledbetter, taken by Alan Lomax in the 1940's.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;pines__leadbelly&quot;)) {
-      var images = document.getElementById(&quot;pines__leadbelly&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;pines__leadbelly&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;pines__leadbelly&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 
@@ -468,32 +252,14 @@
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
     &lt;div class=&quot;ImageComponent&quot; id=&quot;pines__cobain&quot;&gt;
   &lt;figure&gt;
-    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper flex align-center&quot;&gt;
       &lt;img src=&quot;https://66.media.tumblr.com/92d772fe3f0c7bd23616093da6e91e04/tumblr_oa83w7bhYt1tyu4qdo1_400.gifv&quot; alt=&quot;Cobain passionately sings the chorus, seated at the mic with his eyes closed.&quot; /&gt;
     &lt;/div&gt;
     &lt;figcaption&gt;Kurt Cobain singing &quot;Where Did You Sleep Last Night&quot; with Nirvana at their  historic MTV Unplugged show.&lt;/figcaption&gt;
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;pines__cobain&quot;)) {
-      var images = document.getElementById(&quot;pines__cobain&quot;).getElementsByTagName(&quot;img&quot;);
-      var img;
-      if (images &amp;&amp; images.length &gt; 0) {
-        img = images[0];
-        if (img &amp;&amp; img.src) {
-          var imgSrc = img.src;
-          var loader = new window.Image();
-          loader.src = '';
-          loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;pines__cobain&quot;);
-            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
-          }
-          loader.src = imgSrc;
-        }
-      }
-    } else {
-      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
-    }
+    preloadImage(&quot;pines__cobain&quot;);
   &lt;/script&gt;
 &lt;/div&gt;
 

@@ -1,17 +1,20 @@
 .ImageComponent {
   figure { 
     max-width: 100%;
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
   }
 
   figure figcaption { 
     margin-top: 0.5rem;
     font-style: italic;
+    min-height: 2rem;
   }
   
   .ImageComponent--image-wrapper {
     background-color: $leaf-green;
     opacity: 0.15;
+    min-height: 300px;
+    transition: opacity $transition, background-color $transition, height $transition;
   }
 
   img {
@@ -29,6 +32,7 @@
     }
 
     .ImageComponent--image-wrapper {
+      background: none;
       opacity: 1;
     }
   }

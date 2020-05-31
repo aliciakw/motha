@@ -1,68 +1,42 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>PINES | M.O.T.</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="PINES" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="The music video for 070 Shake&#39;s song &quot;Pines&quot; includes a gnarly fight scene." />
-<meta property="og:description" content="The music video for 070 Shake&#39;s song &quot;Pines&quot; includes a gnarly fight scene." />
-<link rel="canonical" href="http://localhost:4000/2020/03/11/pines.html" />
-<meta property="og:url" content="http://localhost:4000/2020/03/11/pines.html" />
-<meta property="og:site_name" content="M.O.T." />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-03-11T00:00:00-04:00" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/2020/03/11/pines.html","description":"The music video for 070 Shake&#39;s song &quot;Pines&quot; includes a gnarly fight scene.","headline":"PINES","dateModified":"2020-03-11T00:00:00-04:00","datePublished":"2020-03-11T00:00:00-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/03/11/pines.html"},"@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css">
-  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="M.O.T." /><script type="text/javascript" src="/scripts/preloadImage.js"></script>
-</head>
-<body><header class="site-header" role="banner">
-
-  <div class="wrapper"><a rel="author" href="/">
-      <h1 class="site-title monofett">M.O.T.</h1>
-    </a>
-
-    <!--<nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger"></div>
-      </nav>-->
-  </div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="Post" itemscope itemtype="http://schema.org/BlogPosting"><div class="mb1">
-  <h1 class="heading mt1 mb1" itemprop="name headline">PINES</h1>
-  <h2 class="subheading italic mb1 flex-grow">The history is American, the future is...New Jersey?</h2>
-  <div class="md-flex flex-row">
-    <p class="dt-published detail mb_5 md-flex flex-grow">
-      <time datetime="2020-03-11T00:00:00-04:00" itemprop="datePublished">Mar 11, 2020</time>
-    </p>
-    <p class="dt-published detail mb_5">New York, NY</p>
-  </div>
-</div><div class="md-flex flex-row flex-1">
-    <div class="md-w75" itemprop="articleBody">
-      <div class="ImageComponent" id="pines__shake-video-still">
+I"�'<div class="ImageComponent" id="pines__shake-video-still">
   <figure>
-    <div class="ImageComponent--image-wrapper flex align-center">
+    <div class="ImageComponent--image-wrapper">
       <img src="https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png" alt="070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others." />
     </div>
     <figcaption>The music video for 070 Shake's song "Pines" includes a gnarly fight scene.</figcaption>
   </figure>
 
   <script>
-    preloadImage("pines__shake-video-still");
+    preloadImage();
+
+
+    // function preloadImage(imgKey) {
+    //   var images = document.getElementById(imgKey).getElementsByTagName("img");
+    //   if (!images || !images.length) return;
+
+    //   var img;
+    // }
+
+
+    if (document.getElementById("pines__shake-video-still")) {
+      var images = document.getElementById("pines__shake-video-still").getElementsByTagName("img");
+      var img;
+      if (images && images.length > 0) {
+        img = images[0];
+        if (img && img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById("pines__shake-video-still");
+            imageComponent.classList.add("ImageComponent--loaded")
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log("Warning: ImageComponent registered without img_key. Loading behavior will be broken.");
+    }
   </script>
 </div>
 
@@ -84,14 +58,43 @@
   <div class="DoubleImageComponent__col">
     <div class="ImageComponent" id="pines__leadbelly">
   <figure>
-    <div class="ImageComponent--image-wrapper flex align-center">
+    <div class="ImageComponent--image-wrapper">
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Huddie_Ledbetter_%28Leadbelly%29_taken_by_Alan_Lomax.jpg" alt="A black and white photograph of Huddie Ledbetter wearing a plaid suit and holding an acoustic guitar" />
     </div>
     <figcaption>A photograph of Huddie "Leadbelly" Ledbetter, taken by Alan Lomax in the 1940's.</figcaption>
   </figure>
 
   <script>
-    preloadImage("pines__leadbelly");
+    preloadImage();
+
+
+    // function preloadImage(imgKey) {
+    //   var images = document.getElementById(imgKey).getElementsByTagName("img");
+    //   if (!images || !images.length) return;
+
+    //   var img;
+    // }
+
+
+    if (document.getElementById("pines__leadbelly")) {
+      var images = document.getElementById("pines__leadbelly").getElementsByTagName("img");
+      var img;
+      if (images && images.length > 0) {
+        img = images[0];
+        if (img && img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById("pines__leadbelly");
+            imageComponent.classList.add("ImageComponent--loaded")
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log("Warning: ImageComponent registered without img_key. Loading behavior will be broken.");
+    }
   </script>
 </div>
 
@@ -99,14 +102,43 @@
   <div class="DoubleImageComponent__col">
     <div class="ImageComponent" id="pines__cobain">
   <figure>
-    <div class="ImageComponent--image-wrapper flex align-center">
+    <div class="ImageComponent--image-wrapper">
       <img src="https://66.media.tumblr.com/92d772fe3f0c7bd23616093da6e91e04/tumblr_oa83w7bhYt1tyu4qdo1_400.gifv" alt="Cobain passionately sings the chorus, seated at the mic with his eyes closed." />
     </div>
     <figcaption>Kurt Cobain singing "Where Did You Sleep Last Night" with Nirvana at their  historic MTV Unplugged show.</figcaption>
   </figure>
 
   <script>
-    preloadImage("pines__cobain");
+    preloadImage();
+
+
+    // function preloadImage(imgKey) {
+    //   var images = document.getElementById(imgKey).getElementsByTagName("img");
+    //   if (!images || !images.length) return;
+
+    //   var img;
+    // }
+
+
+    if (document.getElementById("pines__cobain")) {
+      var images = document.getElementById("pines__cobain").getElementsByTagName("img");
+      var img;
+      if (images && images.length > 0) {
+        img = images[0];
+        if (img && img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById("pines__cobain");
+            imageComponent.classList.add("ImageComponent--loaded")
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log("Warning: ImageComponent registered without img_key. Loading behavior will be broken.");
+    }
   </script>
 </div>
 
@@ -122,52 +154,4 @@
 <div class="Post__spacer"></div>
 
 <p>Speaking of ways places to put you rage, it’s getting borderline in here. Despite clouds of THC vapor, no one is chill. Shake is grandstanding about loving our neighbors while a guy yells at his date for putting her fingers in his nose. We bounce and cheer to banger after banger, each one it’s own groovy cyborgian musical moment. A beer-soaked dude soaked slams into me and my inner punk launches itself into the moshing abyss. My anxiety and angst rolls off in blissful waves, til I make eye contact with a woman whose looking kinda upset. Next time my feet touch down I allow them to stick in the sugary residue of a spilled drink. Shake hits a crescendo with “Under the Moon” and then plays us out with “Violent Crimes,” the closing track on Kanye’s 2018 album “Ye” that first launched Shake and the 070 collective into the national spotlight. It’s the future, it’s the past, it’s the slow-moving semi-apocalyptic now. Keep slaying NJ. Work on your physical self-awareness if you can.</p>
-
-
-      <div class="Post__References mt3">
-  <h4 class="subheading underlined mb1">References</h4>
-  <ol class="detail italic"><li>“In the Pines,” last modified May 14, 2020, https://en.wikipedia.org/wiki/In_the_Pines.</li><li>“Bill Monroe,” last modified May 12, 2020, https://en.wikipedia.org/wiki/Bill_Monroe.</li></ol>
-</div>
-    </div>
-  </div><a class="u-url" href="/2020/03/11/pines.html" hidden></a>
-</article>
-
-      </div>
-    </main><footer class="Footer">
-  <data class="u-url" href="/"></data>
-  <div class="wrapper">
-
-    <div class="flex flex-row justify-end">
-      <div class="w100 md-w33 xl-w25 p1 border-charcoal mt2 mb2">
-        <form action="https://tinyletter.com/m-o-t" method="post" target="popupwindow"
-          onsubmit="window.open('https://tinyletter.com/m-o-t', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-          <h4 class="subheading">Never miss a post!</h4>
-          <p class="detail mb1">(they can be sporadic)</p>
-          <div class="Footer__fieldset flex flex-col">
-            <label for="tlemail" class="sr-only">Enter your email address</label>
-
-            <input class="Footer__input text-center mb_5" type="text" name="email" placeholder="email address" id="tlemail" />
-            <input type="hidden" value="1" name="embed" />
-            <input class="Footer__button" type="submit" value="subscribe" />
-          </div>
-        </form>
-      </div>
-    </div>
-
-    <div class="flex flex-row justify-center mt2">
-      <div class="flex flex-col text-center align-center w100 md-w33 p1">
-        <img src="/assets/mot.jpg" class="Footer__image"
-          alt="An image of a Mother of Thousands plant with many small plantlets forming on its waxy green leaves." /><p class="detail mt1">
-          &copy; 05/31/2020 @ 07:18 PM, by Alicia No.
-        </p>
-        <p class="detail italic mt_5">
-          All content is based on the opinions and research of the author, an imperfect human.
-          Thanks for reading!
-        </p>
-      </div>
-    <div>
-  </div>
-</footer>
-</body>
-
-</html>
+:ET

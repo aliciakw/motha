@@ -281,7 +281,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .DoubleImageComponent { margin: 2rem 0; }
 
-.DoubleImageComponent__col { display: flex; flex-direction: column; justify-content: flex-end; flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
+.DoubleImageComponent__col { display: flex; flex-direction: column; justify-content: center; flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
 
 .DoubleImageComponent__col:first-of-type { margin-bottom: 2rem; }
 
@@ -305,11 +305,11 @@ table td { border: 1px solid #e8e8e8; }
 @media (min-width: 500px) { .Footer__input { width: auto; }
   .Footer__image { width: 175px; } }
 
-.ImageComponent figure { max-width: 100%; margin: 2rem 0; }
+.ImageComponent figure { max-width: 100%; margin: 2rem 0 1rem 0; }
 
-.ImageComponent figure figcaption { margin-top: 0.5rem; font-style: italic; }
+.ImageComponent figure figcaption { margin-top: 0.5rem; font-style: italic; min-height: 2rem; }
 
-.ImageComponent .ImageComponent--image-wrapper { background-color: #78cc6e; opacity: 0.15; }
+.ImageComponent .ImageComponent--image-wrapper { background-color: #78cc6e; opacity: 0.15; min-height: 300px; transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out, height 0.2s ease-in-out; }
 
 .ImageComponent img { opacity: 0; width: 100%; transition: opacity 0.2s ease-in-out; }
 
@@ -317,7 +317,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .ImageComponent--loaded img { opacity: 1; }
 
-.ImageComponent--loaded .ImageComponent--image-wrapper { opacity: 1; }
+.ImageComponent--loaded .ImageComponent--image-wrapper { background: none; opacity: 1; }
 
 @media (min-width: 770px) { .ImageComponent figure { max-width: 380px; } }
 
