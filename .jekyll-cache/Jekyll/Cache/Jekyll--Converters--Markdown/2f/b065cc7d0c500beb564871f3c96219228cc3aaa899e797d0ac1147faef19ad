@@ -1,14 +1,14 @@
-<div class="ImageComponent" id="{{ include.img_key}}">
+I"Å<div class="ImageComponent">
   <figure>
     <div class="ImageComponent--image-wrapper">
-      <img src="{{ include.src }}" alt="{{ include.alt }}" />
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png" alt="070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others." />
     </div>
-    <figcaption>{{ include.caption }}</figcaption>
+    <figcaption>The music video for 070 Shake's song "Pines" includes a gnarly fight scene.</figcaption>
   </figure>
 
   <script>
-    if (document.getElementById("{{ include.img_key }}")) {
-      var images = document.getElementById("{{ include.img_key }}").getElementsByTagName("img");
+    if (document.getElementById("")) {
+      var images = document.getElementById("").getElementsByTagName("img");
       var img;
       if (images && images.length > 0) {
         img = images[0];
@@ -17,7 +17,7 @@
           var loader = new window.Image();
           loader.src = '';
           loader.onload = function () {
-            var imageComponent = document.getElementById("{{ include.img_key }}");
+            var imageComponent = document.getElementById("");
             imageComponent.classList.add("ImageComponent--loaded")
           }
           loader.src = imgSrc;
@@ -28,3 +28,4 @@
     }
   </script>
 </div>
+:ET

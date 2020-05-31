@@ -1,8 +1,32 @@
-I"k<div class="ImageComponent">
+I"l<div class="ImageComponent">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png" alt="070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others." />
+    <div class="ImageComponent--image-wrapper">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png" alt="070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others." />
+    </div>
     <figcaption>The music video for 070 Shake's song "Pines" includes a gnarly fight scene.</figcaption>
   </figure>
+
+  <script>
+    if (document.getElementById("")) {
+      var images = document.getElementById("").getElementsByTagName("img");
+      var img;
+      if (images && images.length > 0) {
+        img = images[0];
+        if (img && img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById("");
+            imageComponent.classList.add("ImageComponent--loaded")
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log("Warning: ImageComponent registered without img_key. Loading behavior will be broken.");
+    }
+  </script>
 </div>
 
 <p>A few days after the first official cases of COVID-19 hit the streets of New York City, I am embarassed to admit I was not yet cowering in my apartment. Instead I was at Webster Hall, in a claustrophobic crowd of fans waiting to see two members of the 070 collective. The first act was 070 Phi, an oddly wise Gen Z-er with glasses and braids, serving up some good quality rap. Then 070 Shake came along to launched us into a new dimension.</p>

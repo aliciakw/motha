@@ -309,6 +309,16 @@ table td { border: 1px solid #e8e8e8; }
 
 .ImageComponent figure figcaption { margin-top: 0.5rem; font-style: italic; }
 
+.ImageComponent .ImageComponent--image-wrapper { background-color: #78cc6e; opacity: 0.25; }
+
+.ImageComponent img { opacity: 0; width: 100%; transition: opacity 0.2s ease-in-out; }
+
+.ImageComponent--loaded figure { border: none; }
+
+.ImageComponent--loaded img { opacity: 1; }
+
+.ImageComponent--loaded .ImageComponent--image-wrapper { opacity: 1; }
+
 @media (min-width: 770px) { .ImageComponent figure { max-width: 380px; } }
 
 .Post h3 { margin: 1rem 0; }

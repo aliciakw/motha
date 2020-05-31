@@ -1,8 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T16:56:29-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T18:20:06-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg&quot; alt=&quot;A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass.&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg&quot; alt=&quot;A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass.&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;&quot;)) {
+      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;entering&quot;&gt;Entering&lt;/h3&gt;
@@ -21,9 +45,33 @@
 
 &lt;div class=&quot;ImageComponent&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg&quot; alt=&quot;A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram.&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg&quot; alt=&quot;A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram.&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;&quot;)) {
+      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;arriving&quot;&gt;Arriving&lt;/h3&gt;
@@ -42,9 +90,33 @@
 
 &lt;div class=&quot;ImageComponent&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg&quot; alt=&quot;Black and white scanned images of two silver coins bearing the Greek letters K N O.&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg&quot; alt=&quot;Black and white scanned images of two silver coins bearing the Greek letters K N O.&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;&quot;)) {
+      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;leaving&quot;&gt;Leaving&lt;/h3&gt;
@@ -59,11 +131,35 @@
   &lt;li&gt;
     &lt;p&gt;Rhoen threatens to break the walls on the way back, so we settle on a run. Bouncing around the labyrinths’ four quadrants I surge ahead of the others, only to fall behind when the path switchbacks in the opposite direction. My lungs burn, I wonder if I’ll trip at the next turn, or the next. I think it’s over sooner than it is, accidentally puncturing the wall of one of the final bends before the neck of the exit. On leaving I circle the exterior, noting commemorative bricks, and reflecting on what just happened. There’s a sundial feature made by a man Rhoen knows from childhood. He exits, and then Aneken, in their own time. We don’t say much of anything. We’ve been on the same path but there were three separate journeys.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.</summary></entry><entry><title type="html">HISTORY GLOWS RED</title><link href="http://localhost:4000/2020/03/22/talwst-cant-i-alter.html" rel="alternate" type="text/html" title="HISTORY GLOWS RED" /><published>2020-03-22T00:00:00-04:00</published><updated>2020-03-22T00:00:00-04:00</updated><id>http://localhost:4000/2020/03/22/talwst-cant-i-alter</id><content type="html" xml:base="http://localhost:4000/2020/03/22/talwst-cant-i-alter.html">&lt;div class=&quot;ImageComponent&quot;&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.</summary></entry><entry><title type="html">HISTORY GLOWS RED</title><link href="http://localhost:4000/2020/03/22/talwst-cant-i-alter.html" rel="alternate" type="text/html" title="HISTORY GLOWS RED" /><published>2020-03-22T00:00:00-04:00</published><updated>2020-03-22T00:00:00-04:00</updated><id>http://localhost:4000/2020/03/22/talwst-cant-i-alter</id><content type="html" xml:base="http://localhost:4000/2020/03/22/talwst-cant-i-alter.html">&lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__knight-diorama&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--dWZ_0RMF--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e42850d2e43af68f9c786a5841b3554e/CSA-34a-SC.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--dWZ_0RMF--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e42850d2e43af68f9c786a5841b3554e/CSA-34a-SC.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;Artist as Knight (self portrait). Curtis Talwst Santiago. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;talwst__knight-diorama&quot;)) {
+      var images = document.getElementById(&quot;talwst__knight-diorama&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;talwst__knight-diorama&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It’s hard to describe how experiencing the collection of work by Curtis Talwst Santiago on view at the Drawing Center made me feel. So I’ll settle for describing what I saw in this show entitled “Can’t I Alter”.&lt;/p&gt;
@@ -72,11 +168,35 @@
 
 &lt;p&gt;Upon entering, visitors first encounter a life-sized, beaded suit of armor, nestled in an arch of crumbling plaster supported by iron construction scaffolding. The scenery evokes ancient ruins and the streets of New York, which fits. The work here is the result of a journey that has taken Santiago all over the globe.&lt;/p&gt;
 
-&lt;div class=&quot;ImageComponent&quot;&gt;
+&lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__install-1&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--YtKPvDxr--/c_limit,g_center,h_65535,w_2500/fl_keep_iptc.progressive,q_95/IMG_2004_paj12w.jpg?2500&quot; alt=&quot;&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--YtKPvDxr--/c_limit,g_center,h_65535,w_2500/fl_keep_iptc.progressive,q_95/IMG_2004_paj12w.jpg?2500&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;Installation view at the Drawing Center in February of 2020.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;talwst__install-1&quot;)) {
+      var images = document.getElementById(&quot;talwst__install-1&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;talwst__install-1&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;p&gt;From a stark childhood memory of his first encounter with &lt;em&gt;J’Ouvert&lt;/em&gt;, a Trinidadi festival commemorating the first time formerly enslaved people could celebrate Carnival, and a recent quest into the origins of a 16th century Flemish painting depicting an African Knight of the Order or Santiago, the artist birthed his character ‘Sir Dingolay’. Serving as both the show’s hero and the artist’s alter ego, Sir Dingolay’s presence helps to unite the fruits of the artist’s versatile talents. (In addition to being a thoughtful painter, and an inspired 3-D artist, Santiago is widely acclaimed for his miniature dioramas and has also had a successful career as a Toronto-based dance-rock musician. This might explain his fluency with so many media)&lt;/p&gt;
@@ -119,18 +239,66 @@
 
 &lt;p&gt;A &lt;a href=&quot;https://vimeo.com/398961557&quot; target=&quot;_blank&quot;&gt;music video&lt;/a&gt; plays in the central room, adding a groovy, exciting soundtrack that grounds so many history-defying objects in the honest present. We see the artist finally don the beaded armor and transform into Sir Dingolay. Surrounded by ruins with red pigment brightening his face, he dances the night away to his father’s favorite song (a Calypso tune by the Mighty Sparrow). In this way it all cascades down into the present, all brimming with blood and life.&lt;/p&gt;
 
-&lt;div class=&quot;ImageComponent&quot;&gt;
+&lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__santiago-with-knight&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/curtis-talwst-santiago-with-armor.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/curtis-talwst-santiago-with-armor.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;The artist poses next to &quot;African Knight I&quot; (wire and beads, on steel armature, 2018).&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;talwst__santiago-with-knight&quot;)) {
+      var images = document.getElementById(&quot;talwst__santiago-with-knight&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;talwst__santiago-with-knight&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Experiencing this body of work gave me a sense of hope that’s hard to describe. Seeing the artist presenting a heavily realized vision of his personal history — not a history that was written for him by the institution, but a history he sought out and nurtured and imagined into reality — seemed to acknowledge a secret desire I’ve secretly always had for a “better” history. As one of the mutts of the post-colonial society we call the United States, my history always ran contrary to the versions I learned about in school. There are so many blanks, blanks that there will never be adequate records to fill. In “Can’t I Alter”, Santiago seems to argue that with some creativity, a person can take this on. That it’s worth looking for your ancestors, even if their forms come a bit fuzzy. It’s totally possible to create your own mythology. Who’s to say your mythology is less real.&lt;/p&gt;</content><author><name></name></author><summary type="html">Artist as Knight (self portrait). Curtis Talwst Santiago. 2018</summary></entry><entry><title type="html">PINES</title><link href="http://localhost:4000/2020/03/11/pines.html" rel="alternate" type="text/html" title="PINES" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/2020/03/11/pines</id><content type="html" xml:base="http://localhost:4000/2020/03/11/pines.html">&lt;div class=&quot;ImageComponent&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png&quot; alt=&quot;070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others.&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png&quot; alt=&quot;070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others.&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;The music video for 070 Shake's song &quot;Pines&quot; includes a gnarly fight scene.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;&quot;)) {
+      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
 &lt;/div&gt;
 
 &lt;p&gt;A few days after the first official cases of COVID-19 hit the streets of New York City, I am embarassed to admit I was not yet cowering in my apartment. Instead I was at Webster Hall, in a claustrophobic crowd of fans waiting to see two members of the 070 collective. The first act was 070 Phi, an oddly wise Gen Z-er with glasses and braids, serving up some good quality rap. Then 070 Shake came along to launched us into a new dimension.&lt;/p&gt;

@@ -9,7 +9,8 @@ refs_list:
 ---
 
 {%
- include image-component.html 
+ include image-component.html
+ img_key="talwst__knight-diorama"
  src="https://format-com-cld-res.cloudinary.com/image/private/s--dWZ_0RMF--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e42850d2e43af68f9c786a5841b3554e/CSA-34a-SC.jpg?1200"
  caption="Artist as Knight (self portrait). Curtis Talwst Santiago. 2018"
 %}
@@ -22,6 +23,7 @@ Upon entering, visitors first encounter a life-sized, beaded suit of armor, nest
 
 {%
   include image-component.html
+  img_key="talwst__install-1"
   src="https://format-com-cld-res.cloudinary.com/image/private/s--YtKPvDxr--/c_limit,g_center,h_65535,w_2500/fl_keep_iptc.progressive,q_95/IMG_2004_paj12w.jpg?2500"
   caption="Installation view at the Drawing Center in February of 2020."
 %}
@@ -63,6 +65,7 @@ A <a href="https://vimeo.com/398961557" target="_blank">music video</a> plays in
 
 {%
  include image-component.html 
+ img_key="talwst__santiago-with-knight"
  src="https://aliciawillett.s3.amazonaws.com/images/blog/curtis-talwst-santiago-with-armor.jpg"
  caption="The artist poses next to \"African Knight I\" (wire and beads, on steel armature, 2018)."
 %}

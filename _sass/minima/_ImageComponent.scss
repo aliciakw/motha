@@ -8,6 +8,30 @@
     margin-top: 0.5rem;
     font-style: italic;
   }
+  
+  .ImageComponent--image-wrapper {
+    background-color: $leaf-green;
+    opacity: 0.25;
+  }
+
+  img {
+    opacity: 0;
+    width: 100%;
+    transition: opacity $transition;
+  }
+
+  &--loaded {
+    figure {
+      border: none;
+    }
+    img {
+      opacity: 1;
+    }
+
+    .ImageComponent--image-wrapper {
+      opacity: 1;
+    }
+  }
 
   @media (min-width: map-get($breakpoints, md)) {
     figure { max-width: 380px; }

@@ -1,8 +1,32 @@
-I"å$<div class="ImageComponent">
+I"è-<div class="ImageComponent">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg" alt="A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass." />
+    <div class="ImageComponent--image-wrapper">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg" alt="A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass." />
+    </div>
     <figcaption>The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.</figcaption>
   </figure>
+
+  <script>
+    if (document.getElementById("")) {
+      var images = document.getElementById("").getElementsByTagName("img");
+      var img;
+      if (images && images.length > 0) {
+        img = images[0];
+        if (img && img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById("");
+            imageComponent.classList.add("ImageComponent--loaded")
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log("Warning: ImageComponent registered without img_key. Loading behavior will be broken.");
+    }
+  </script>
 </div>
 
 <h3 id="entering">Entering</h3>
@@ -21,9 +45,33 @@
 
 <div class="ImageComponent">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg" alt="A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram." />
+    <div class="ImageComponent--image-wrapper">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg" alt="A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram." />
+    </div>
     <figcaption>Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.</figcaption>
   </figure>
+
+  <script>
+    if (document.getElementById("")) {
+      var images = document.getElementById("").getElementsByTagName("img");
+      var img;
+      if (images && images.length > 0) {
+        img = images[0];
+        if (img && img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById("");
+            imageComponent.classList.add("ImageComponent--loaded")
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log("Warning: ImageComponent registered without img_key. Loading behavior will be broken.");
+    }
+  </script>
 </div>
 
 <h3 id="arriving">Arriving</h3>
@@ -42,9 +90,33 @@
 
 <div class="ImageComponent">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg" alt="Black and white scanned images of two silver coins bearing the Greek letters K N O." />
+    <div class="ImageComponent--image-wrapper">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg" alt="Black and white scanned images of two silver coins bearing the Greek letters K N O." />
+    </div>
     <figcaption>Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.</figcaption>
   </figure>
+
+  <script>
+    if (document.getElementById("")) {
+      var images = document.getElementById("").getElementsByTagName("img");
+      var img;
+      if (images && images.length > 0) {
+        img = images[0];
+        if (img && img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById("");
+            imageComponent.classList.add("ImageComponent--loaded")
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log("Warning: ImageComponent registered without img_key. Loading behavior will be broken.");
+    }
+  </script>
 </div>
 
 <h3 id="leaving">Leaving</h3>
