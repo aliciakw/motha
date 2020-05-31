@@ -12,6 +12,7 @@ refs_list:
 
 {%
  include image-component.html 
+ img_key="labyrinths__all-saints"
  src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg"
  alt="A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass."
  caption="The labyrinth at All Saints Community Labyrinth follows the Chartes pattern."
@@ -30,6 +31,7 @@ These humans will make metaphors out of anything. We also walk around a lot, get
 
 {%
  include image-component.html 
+ img_key="labyrinths__artress"
  src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg"
  alt="A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram."
  caption="Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral."
@@ -48,6 +50,7 @@ I tell myself not to feel underwhelmed at the puddle of gravel that awaits me. I
 
 {%
  include image-component.html 
+ img_key="labyrinths__cretan-coins"
  src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg"
  alt="Black and white scanned images of two silver coins bearing the Greek letters K N O."
  caption="Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern."

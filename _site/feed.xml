@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T18:21:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T18:29:05-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot; id=&quot;labyrinths__all-saints&quot;&gt;
   &lt;figure&gt;
     &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg&quot; alt=&quot;A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass.&quot; /&gt;
@@ -7,8 +7,8 @@
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;&quot;)) {
-      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+    if (document.getElementById(&quot;labyrinths__all-saints&quot;)) {
+      var images = document.getElementById(&quot;labyrinths__all-saints&quot;).getElementsByTagName(&quot;img&quot;);
       var img;
       if (images &amp;&amp; images.length &gt; 0) {
         img = images[0];
@@ -17,7 +17,7 @@
           var loader = new window.Image();
           loader.src = '';
           loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;&quot;);
+            var imageComponent = document.getElementById(&quot;labyrinths__all-saints&quot;);
             imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
           }
           loader.src = imgSrc;
@@ -43,7 +43,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div class=&quot;ImageComponent&quot;&gt;
+&lt;div class=&quot;ImageComponent&quot; id=&quot;labyrinths__artress&quot;&gt;
   &lt;figure&gt;
     &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg&quot; alt=&quot;A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram.&quot; /&gt;
@@ -52,8 +52,8 @@
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;&quot;)) {
-      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+    if (document.getElementById(&quot;labyrinths__artress&quot;)) {
+      var images = document.getElementById(&quot;labyrinths__artress&quot;).getElementsByTagName(&quot;img&quot;);
       var img;
       if (images &amp;&amp; images.length &gt; 0) {
         img = images[0];
@@ -62,7 +62,7 @@
           var loader = new window.Image();
           loader.src = '';
           loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;&quot;);
+            var imageComponent = document.getElementById(&quot;labyrinths__artress&quot;);
             imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
           }
           loader.src = imgSrc;
@@ -88,7 +88,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div class=&quot;ImageComponent&quot;&gt;
+&lt;div class=&quot;ImageComponent&quot; id=&quot;labyrinths__cretan-coins&quot;&gt;
   &lt;figure&gt;
     &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg&quot; alt=&quot;Black and white scanned images of two silver coins bearing the Greek letters K N O.&quot; /&gt;
@@ -97,8 +97,8 @@
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;&quot;)) {
-      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+    if (document.getElementById(&quot;labyrinths__cretan-coins&quot;)) {
+      var images = document.getElementById(&quot;labyrinths__cretan-coins&quot;).getElementsByTagName(&quot;img&quot;);
       var img;
       if (images &amp;&amp; images.length &gt; 0) {
         img = images[0];
@@ -107,7 +107,7 @@
           var loader = new window.Image();
           loader.src = '';
           loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;&quot;);
+            var imageComponent = document.getElementById(&quot;labyrinths__cretan-coins&quot;);
             imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
           }
           loader.src = imgSrc;
@@ -386,7 +386,7 @@
   &lt;/script&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Experiencing this body of work gave me a sense of hope that’s hard to describe. Seeing the artist presenting a heavily realized vision of his personal history — not a history that was written for him by the institution, but a history he sought out and nurtured and imagined into reality — seemed to acknowledge a secret desire I’ve secretly always had for a “better” history. As one of the mutts of the post-colonial society we call the United States, my history always ran contrary to the versions I learned about in school. There are so many blanks, blanks that there will never be adequate records to fill. In “Can’t I Alter”, Santiago seems to argue that with some creativity, a person can take this on. That it’s worth looking for your ancestors, even if their forms come a bit fuzzy. It’s totally possible to create your own mythology. Who’s to say your mythology is less real.&lt;/p&gt;</content><author><name></name></author><summary type="html">Artist as Knight (self portrait). Curtis Talwst Santiago. 2018</summary></entry><entry><title type="html">PINES</title><link href="http://localhost:4000/2020/03/11/pines.html" rel="alternate" type="text/html" title="PINES" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/2020/03/11/pines</id><content type="html" xml:base="http://localhost:4000/2020/03/11/pines.html">&lt;div class=&quot;ImageComponent&quot;&gt;
+&lt;p&gt;Experiencing this body of work gave me a sense of hope that’s hard to describe. Seeing the artist presenting a heavily realized vision of his personal history — not a history that was written for him by the institution, but a history he sought out and nurtured and imagined into reality — seemed to acknowledge a secret desire I’ve secretly always had for a “better” history. As one of the mutts of the post-colonial society we call the United States, my history always ran contrary to the versions I learned about in school. There are so many blanks, blanks that there will never be adequate records to fill. In “Can’t I Alter”, Santiago seems to argue that with some creativity, a person can take this on. That it’s worth looking for your ancestors, even if their forms come a bit fuzzy. It’s totally possible to create your own mythology. Who’s to say your mythology is less real.&lt;/p&gt;</content><author><name></name></author><summary type="html">Artist as Knight (self portrait). Curtis Talwst Santiago. 2018</summary></entry><entry><title type="html">PINES</title><link href="http://localhost:4000/2020/03/11/pines.html" rel="alternate" type="text/html" title="PINES" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/2020/03/11/pines</id><content type="html" xml:base="http://localhost:4000/2020/03/11/pines.html">&lt;div class=&quot;ImageComponent&quot; id=&quot;pines__shake-video-still&quot;&gt;
   &lt;figure&gt;
     &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png&quot; alt=&quot;070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others.&quot; /&gt;
@@ -395,8 +395,8 @@
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;&quot;)) {
-      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+    if (document.getElementById(&quot;pines__shake-video-still&quot;)) {
+      var images = document.getElementById(&quot;pines__shake-video-still&quot;).getElementsByTagName(&quot;img&quot;);
       var img;
       if (images &amp;&amp; images.length &gt; 0) {
         img = images[0];
@@ -405,7 +405,7 @@
           var loader = new window.Image();
           loader.src = '';
           loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;&quot;);
+            var imageComponent = document.getElementById(&quot;pines__shake-video-still&quot;);
             imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
           }
           loader.src = imgSrc;
@@ -433,7 +433,7 @@
 
 &lt;div class=&quot;DoubleImageComponent&quot;&gt;
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
-    &lt;div class=&quot;ImageComponent&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot; id=&quot;pines__leadbelly&quot;&gt;
   &lt;figure&gt;
     &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
       &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/07/Huddie_Ledbetter_%28Leadbelly%29_taken_by_Alan_Lomax.jpg&quot; alt=&quot;A black and white photograph of Huddie Ledbetter wearing a plaid suit and holding an acoustic guitar&quot; /&gt;
@@ -442,8 +442,8 @@
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;&quot;)) {
-      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+    if (document.getElementById(&quot;pines__leadbelly&quot;)) {
+      var images = document.getElementById(&quot;pines__leadbelly&quot;).getElementsByTagName(&quot;img&quot;);
       var img;
       if (images &amp;&amp; images.length &gt; 0) {
         img = images[0];
@@ -452,7 +452,7 @@
           var loader = new window.Image();
           loader.src = '';
           loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;&quot;);
+            var imageComponent = document.getElementById(&quot;pines__leadbelly&quot;);
             imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
           }
           loader.src = imgSrc;
@@ -466,7 +466,7 @@
 
   &lt;/div&gt;
   &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
-    &lt;div class=&quot;ImageComponent&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot; id=&quot;pines__cobain&quot;&gt;
   &lt;figure&gt;
     &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
       &lt;img src=&quot;https://66.media.tumblr.com/92d772fe3f0c7bd23616093da6e91e04/tumblr_oa83w7bhYt1tyu4qdo1_400.gifv&quot; alt=&quot;Cobain passionately sings the chorus, seated at the mic with his eyes closed.&quot; /&gt;
@@ -475,8 +475,8 @@
   &lt;/figure&gt;
 
   &lt;script&gt;
-    if (document.getElementById(&quot;&quot;)) {
-      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+    if (document.getElementById(&quot;pines__cobain&quot;)) {
+      var images = document.getElementById(&quot;pines__cobain&quot;).getElementsByTagName(&quot;img&quot;);
       var img;
       if (images &amp;&amp; images.length &gt; 0) {
         img = images[0];
@@ -485,7 +485,7 @@
           var loader = new window.Image();
           loader.src = '';
           loader.onload = function () {
-            var imageComponent = document.getElementById(&quot;&quot;);
+            var imageComponent = document.getElementById(&quot;pines__cobain&quot;);
             imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
           }
           loader.src = imgSrc;
