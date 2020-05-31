@@ -1,10 +1,20 @@
 <div class="DoubleImageComponent">
-  <figure>
-    <img src="{{ include.src_one }}" alt="{{ include.alt_one}}" />
-    <figcaption>{{ include.caption_one }}</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ include.src_two }}" alt="{{ include.alt_two }}" />
-    <figcaption>{{ include.caption_two }}</figcaption>
-  </figure>
+  <div class="DoubleImageComponent__col">
+    {%
+      include image-component.html
+      img_key=include.img_key_one
+      src=include.src_one
+      alt=include.alt_one
+      caption=include.caption_one
+    %}
+  </div>
+  <div class="DoubleImageComponent__col">
+    {%
+      include image-component.html
+      img_key=include.img_key_two
+      src=include.src_two
+      alt=include.alt_two
+      caption=include.caption_two
+    %}
+  </div>
 </div>

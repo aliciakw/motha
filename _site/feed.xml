@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T18:20:06-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T18:21:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">M.O.T.</title><subtitle>a blog, a &quot;mother-of-thousands&quot; of things.</subtitle><entry><title type="html">EVERYTHING IS AN ECHO OF ITSELF</title><link href="http://localhost:4000/2020/05/14/labyrinths.html" rel="alternate" type="text/html" title="EVERYTHING IS AN ECHO OF ITSELF" /><published>2020-05-14T00:00:00-04:00</published><updated>2020-05-14T00:00:00-04:00</updated><id>http://localhost:4000/2020/05/14/labyrinths</id><content type="html" xml:base="http://localhost:4000/2020/05/14/labyrinths.html">&lt;div class=&quot;ImageComponent&quot;&gt;
   &lt;figure&gt;
     &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
       &lt;img src=&quot;https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg&quot; alt=&quot;A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass.&quot; /&gt;
@@ -206,14 +206,72 @@
 &lt;p&gt;The entrance to the show immediately introduces Sir Dingolay in  the form of  his rather festive suit of armor, a life-size garment woven from black, red, white and green beads and wire. Besides evoking the presence of our hero, the wearable sculpture also references the mental ‘armor’ the artist describes needing while traveling the world as a person on color. Nestled inside J’Ouvert Knight, (the only diorama in this collection) our hero appears again in precious miniature. “As with many such objects, this container was likely commissioned as a personal devotional object for a wealthy patron,” the catalogue states. Sir Dingolay also makes an appearance in several of the medium-large in (3 foot square) drawings on canvas that form the bread-and-butter of the exhibit, somewhat ambiguously in &lt;em&gt;Candy Flipping (Boogoo Pouring the Spell in Sir Dingolay’s Ear)&lt;/em&gt; or as a glowing silhouette in &lt;em&gt;The Four of them Made a Promise&lt;/em&gt;. If Sir Dingolay stands in for Curtis Talwst Santiago, are these otherworldly traces based on the artist’s true history?&lt;/p&gt;
 
 &lt;div class=&quot;DoubleImageComponent&quot;&gt;
+  &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__morte-do-cavaliero&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--atUKTDMv--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e249373eab34260530f3d240a269f61a/CSA-9-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--atUKTDMv--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e249373eab34260530f3d240a269f61a/CSA-9-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;&quot;A morte do cavaleiro prateado.&quot; Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;talwst__morte-do-cavaliero&quot;)) {
+      var images = document.getElementById(&quot;talwst__morte-do-cavaliero&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;talwst__morte-do-cavaliero&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__ancestral-vision&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--xejNTiIN--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/60540d89c0012c97d3e5fe228282b82f/CSA-7-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--xejNTiIN--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/60540d89c0012c97d3e5fe228282b82f/CSA-7-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;&quot;Red Face Ancestral Vision 1.&quot; Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;talwst__ancestral-vision&quot;)) {
+      var images = document.getElementById(&quot;talwst__ancestral-vision&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;talwst__ancestral-vision&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The pair of spray-paint drawings on embossed tin tiles She Knight and He Knight, further elaborate on the knight’s mythology. These give the knight some more gravitas; now that he has a companion I start to imagine this avatar as having a life of his own, parallel but separate from the artist. Depicting both male and female knights on equal scale solidly refutes an antiquated belief that the struggle for empowerment men of color face might   require the disempowerment of women of color; in Santiago’s world both the He Knight, She Knight, and the artist himself are magnificent and build one another up.&lt;/p&gt;
@@ -223,14 +281,72 @@
 &lt;p&gt;Another motif is “red face”. Red clay face paint is a central part of of the J’ouvert festival, and by using reddish spray-paint to turn the faces of various ‘untitled ancestors’ and mythical creatures, the artist creates an interconnected mystique for these beings to which he pays homage. Other times spray-paint just represents a diffuse light, as in A luz (the light), bathing the entire drawing of a robed figure in an archway in a fuzzy glow. In &lt;em&gt;A morte do cavaleiro prateado (The Death of the Silver Knight)&lt;/em&gt;, spray-paint illuminates the face of the J’Ouvert Knight and the nocturnal city in the distance, but neither the plants and trees of the foreground nor the face of the dying companion.&lt;/p&gt;
 
 &lt;div class=&quot;DoubleImageComponent&quot;&gt;
+  &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__promise&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--96jRsjOb--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/17bb9e11cf6b1ef5b5d7090a21b25d7a/CSA-10-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--96jRsjOb--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/17bb9e11cf6b1ef5b5d7090a21b25d7a/CSA-10-PTG.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;&quot;The Four of Them Made a Promise.&quot; Spray paint, oil, charcoal, pastel, acrylic on canvas. 2018&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;talwst__promise&quot;)) {
+      var images = document.getElementById(&quot;talwst__promise&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;talwst__promise&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot; id=&quot;talwst__sir-dingolay&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--7zYpIEB3--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/IMG_2020_qhrl27.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://format-com-cld-res.cloudinary.com/image/private/s--7zYpIEB3--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/IMG_2020_qhrl27.jpg?1200&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;&quot;Sir Dingolay&quot;. Video. 2020.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;talwst__sir-dingolay&quot;)) {
+      var images = document.getElementById(&quot;talwst__sir-dingolay&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;talwst__sir-dingolay&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Santiago incorporates real light in only one sculpture – a giant nose the size of a motorcycle engine made of golden translucent glass, called &lt;em&gt;Warahoon&lt;/em&gt;. Tucked away behind a replica of a real stone arch that the artist lived near during his time in Bresca, Italy, the nose glows mysteriously from its place on a fluted columnar pedestal. Closer inspection reveals this sculpture to be a bit tongue-in-cheek. “In leiu of the bust to which this nose belongs, the curators have chosen to display only the nose – the other side of the history so often seen in museums,” reads the exhibition catalogue. Iconoclasts seeking to deface statues of deceased individuals (e.g. grave robbers) in Ancient Egypt (Kemet) often broke off statues’ noses, leaving contemporary viewers with a slew of noseless (or worse, poorly restored Caucasian-nosed) statues. With this nose the artist pays a tribute to all the noses lost to history, and all the stories lost with them.&lt;/p&gt;
@@ -316,14 +432,72 @@
 &lt;p&gt;In 1993 Nirvana reinterpreted “Where Did You Sleep Last Night” and recorded it as part of their famed MTV Unplugged set.&lt;sup&gt;1&lt;/sup&gt; It was creepy. When I discovered Nirvana like a decade later, scouring my parents’ house for literally anything to drown out the sounds of middle school, it was creepy, hearing this man shrieking at this young woman, incensed she would lie to him about where she slept last night. It chilled me to hear this hushed-up reality of domestic male rage being admitted in this way. I think I assumed it was about infidelity, and maybe for Cobain it was. Like a lot of Nirvana lyrics it felt like a riddle, a mystery you could flip different ways, and I held tight to it as something I might understand later.&lt;/p&gt;
 
 &lt;div class=&quot;DoubleImageComponent&quot;&gt;
+  &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/07/Huddie_Ledbetter_%28Leadbelly%29_taken_by_Alan_Lomax.jpg&quot; alt=&quot;A black and white photograph of Huddie Ledbetter wearing a plaid suit and holding an acoustic guitar&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/07/Huddie_Ledbetter_%28Leadbelly%29_taken_by_Alan_Lomax.jpg&quot; alt=&quot;A black and white photograph of Huddie Ledbetter wearing a plaid suit and holding an acoustic guitar&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;A photograph of Huddie &quot;Leadbelly&quot; Ledbetter, taken by Alan Lomax in the 1940's.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;&quot;)) {
+      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;DoubleImageComponent__col&quot;&gt;
+    &lt;div class=&quot;ImageComponent&quot;&gt;
   &lt;figure&gt;
-    &lt;img src=&quot;https://66.media.tumblr.com/92d772fe3f0c7bd23616093da6e91e04/tumblr_oa83w7bhYt1tyu4qdo1_400.gifv&quot; alt=&quot;Cobain passionately sings the chorus, seated at the mic with his eyes closed.&quot; /&gt;
+    &lt;div class=&quot;ImageComponent--image-wrapper&quot;&gt;
+      &lt;img src=&quot;https://66.media.tumblr.com/92d772fe3f0c7bd23616093da6e91e04/tumblr_oa83w7bhYt1tyu4qdo1_400.gifv&quot; alt=&quot;Cobain passionately sings the chorus, seated at the mic with his eyes closed.&quot; /&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;Kurt Cobain singing &quot;Where Did You Sleep Last Night&quot; with Nirvana at their  historic MTV Unplugged show.&lt;/figcaption&gt;
   &lt;/figure&gt;
+
+  &lt;script&gt;
+    if (document.getElementById(&quot;&quot;)) {
+      var images = document.getElementById(&quot;&quot;).getElementsByTagName(&quot;img&quot;);
+      var img;
+      if (images &amp;&amp; images.length &gt; 0) {
+        img = images[0];
+        if (img &amp;&amp; img.src) {
+          var imgSrc = img.src;
+          var loader = new window.Image();
+          loader.src = '';
+          loader.onload = function () {
+            var imageComponent = document.getElementById(&quot;&quot;);
+            imageComponent.classList.add(&quot;ImageComponent--loaded&quot;)
+          }
+          loader.src = imgSrc;
+        }
+      }
+    } else {
+      console.log(&quot;Warning: ImageComponent registered without img_key. Loading behavior will be broken.&quot;);
+    }
+  &lt;/script&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Eventually I did an internet search and found out the song was actually a lot older. In 1941 and 1952 Bill Monroe (called the “Father of Bluegrass”)&lt;sup&gt;2&lt;/sup&gt; recorded versions of a southern Appalachian folk song sometimes also called “The Longest Train” under the name “In the Pines.”&lt;sup&gt;1&lt;/sup&gt; The lyrics in this version describe a train that took three hours to pass and allude to a “little girl” the narrator is mourning without being too specific. In 1944 and 1948 Huddie Ledbetter (stage name: Lead Belly) interpreted the folk song in a more violent an haunting way. Here the narrator seems to be a Black woman mourning the loss of her husband and daughter, decapitated by a moving train and dumped in a pine forest where she cannot find them. Many other versions of this song have been recorded, in music genres from Cajun zydeco to British pop, but the Lead Belly version is the version Kurt Cobain learned from fellow 1990’s Seattle musician Mark Lanegan, and based on the grungy heavy-distortion baseline that opens 070 Shake’s “The Pines”, I’m pretty sure this is the version being referenced here.&lt;/p&gt;

@@ -36,8 +36,10 @@ The entrance to the show immediately introduces Sir Dingolay in  the form of  hi
 
 {%
  include double-image-component.html
+ img_key_one="talwst__morte-do-cavaliero"
  src_one="https://format-com-cld-res.cloudinary.com/image/private/s--atUKTDMv--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e249373eab34260530f3d240a269f61a/CSA-9-PTG.jpg?1200"
  caption_one="\"A morte do cavaleiro prateado.\" Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018"
+ img_key_two="talwst__ancestral-vision"
  src_two="https://format-com-cld-res.cloudinary.com/image/private/s--xejNTiIN--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/60540d89c0012c97d3e5fe228282b82f/CSA-7-PTG.jpg?1200"
  caption_two="\"Red Face Ancestral Vision 1.\" Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018"
 %}
@@ -51,8 +53,10 @@ Another motif is “red face”. Red clay face paint is a central part of of the
 
 {% 
  include double-image-component.html
+ img_key_one="talwst__promise"
  src_one="https://format-com-cld-res.cloudinary.com/image/private/s--96jRsjOb--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/17bb9e11cf6b1ef5b5d7090a21b25d7a/CSA-10-PTG.jpg?1200"
  caption_one="\"The Four of Them Made a Promise.\" Spray paint, oil, charcoal, pastel, acrylic on canvas. 2018"
+ img_key_two="talwst__sir-dingolay"
  src_two="https://format-com-cld-res.cloudinary.com/image/private/s--7zYpIEB3--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/IMG_2020_qhrl27.jpg?1200"
  caption_two="\"Sir Dingolay\". Video. 2020."
 %}

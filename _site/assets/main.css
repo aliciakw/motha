@@ -281,15 +281,15 @@ table td { border: 1px solid #e8e8e8; }
 
 .DoubleImageComponent { margin: 2rem 0; }
 
-.DoubleImageComponent figure { display: flex; flex-direction: column; justify-content: flex-end; flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
+.DoubleImageComponent__col { display: flex; flex-direction: column; justify-content: flex-end; flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
 
-.DoubleImageComponent figure:first-of-type { margin-bottom: 2rem; }
+.DoubleImageComponent__col:first-of-type { margin-bottom: 2rem; }
 
 .DoubleImageComponent figure figcaption { margin-top: 0.5rem; font-style: italic; }
 
 @media (min-width: 770px) { .DoubleImageComponent { display: flex; }
-  .DoubleImageComponent figure { margin-right: 0.5rem; margin-bottom: 0; }
-  .DoubleImageComponent figure:first-of-type { margin-bottom: 0; }
+  .DoubleImageComponent__col { margin-right: 0.5rem; margin-bottom: 0; }
+  .DoubleImageComponent__col:first-of-type { margin-bottom: 0; }
   .DoubleImageComponent figure > img { max-height: 250px; align-self: flex-start; } }
 
 .Footer { margin: 2rem 0; }
@@ -325,7 +325,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .Post ol { list-style-position: inside; list-style-type: lower-roman; margin-left: 0; margin-bottom: 3rem; }
 
-.Post ol li { margin-bottom: 1rem; }
+.Post ol li { margin-bottom: 1rem; overflow-wrap: break-word; }
 
 .Post__References ol { list-style-type: decimal; }
 
