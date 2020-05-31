@@ -10,21 +10,35 @@
 }
 
 .site-title {
-  @include relative-font-size(5.5);
-  line-height: 5rem;
+  @include relative-font-size(4.5);
+  line-height: 4.5rem;
   letter-spacing: 0.35rem;
   margin-top: 2rem;
   word-break: break-all;
 
-  @media(min-width: map-get($breakpoints, md)) {
-    @include relative-font-size(6);
+  @media(min-width: map-get($breakpoints, xs)) {
+    @include relative-font-size(5.5);
     line-height: 5rem;
+  }
+
+  @media(min-width: map-get($breakpoints, lg)) {
+    @include relative-font-size(7);
+     line-height: 6.5rem;
+  }
+}
+
+.subtitle {
+  @include relative-font-size(1.5); 
+  letter-spacing: 0.025rem;
+
+  @media(min-width: map-get($breakpoints, sm)) {
+    @include relative-font-size(1.75);
   }
 }
 
 .heading {
   @include relative-font-size(1.75);
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
 
   @media (min-width: map-get($breakpoints, md)) {
     @include relative-font-size(1.875);
@@ -41,6 +55,10 @@
   }
 }
 
+.copy {
+  @include relative-font-size(1);
+}
+
 .detail {
   @include relative-font-size(0.875);
 }
@@ -54,34 +72,7 @@
   }
 }
 
-.post-content { // TODO: delete
-  margin-bottom: $spacing-unit;
-
-  h2 {
-    @include relative-font-size(2);
-    @media (min-width: map-get($breakpoints, md)) {
-      @include relative-font-size(1.75);
-    }
-  }
-
-  h3 {
-    @include relative-font-size(1.625);
-    @media (min-width: map-get($breakpoints, md)) {
-      @include relative-font-size(1.375);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.25);
-    @media (min-width: map-get($breakpoints, md)) {
-      @include relative-font-size(1.125);
-    }
-  }
-
-  p {
-    @include relative-font-size(1.25);
-    @media (min-width: map-get($breakpoints, md)) {
-      @include relative-font-size(1.125);
-    }
-  }
+.post-link {
+  display: block;
+  @include relative-font-size(1.4);
 }

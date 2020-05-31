@@ -55,10 +55,11 @@ $content-width:    832px !default;
 
 
 $breakpoints: (
-  'sm': 640px,
-  'md': 832px,
-  'lg': 1024px,
-  'xl': 1152px
+  'xs': 365px, // iphone SE (320px) and down
+  'sm': 500px, // iphone X (375px) and phablets
+  'md': 770px, // ipad and smaller browser window
+  'lg': 1024px, // laptop
+  'xl': 1450px // large desktop
 ) !default;
 
 
@@ -79,6 +80,11 @@ $breakpoints: (
 .flex {
   display: flex;
 }
+.sm-flex {
+  @media (min-width: map-get($breakpoints, sm)) {
+    display: flex;
+  }
+}
 .md-flex {
   @media (min-width: map-get($breakpoints, md)) {
     display: flex;
@@ -95,6 +101,11 @@ $breakpoints: (
 .flex-2 { flex-grow: 2; }
 .flex-3 { flex-grow: 3; }
 .flex-4 { flex-grow: 4; }
+.md-flex-1_3 {
+   @media (min-width: map-get($breakpoints, md)) {
+    flex-grow: 0.33;
+  }
+}
 .justify-start {
   justify-content: flex-start;
 }
@@ -114,18 +125,42 @@ $breakpoints: (
   align-items: center;
 }
 
+.wauto {
+  width: auto;
+}
+.w100 {
+  width: 100%;
+}
 .md-w25 {
   @media (min-width: map-get($breakpoints, md)) {
     width: 25%;
   }
 }
+
+.md-w33 {
+  @media (min-width: map-get($breakpoints, md)) {
+    width: 33%;
+  }
+}
+
 .md-w75 {
   @media (min-width: map-get($breakpoints, md)) {
     width: 75%;
   }
 }
 
-.debug { border: 1px solid orangered; }
+.xl-w25 {
+  @media (min-width: map-get($breakpoints, xl)) {
+    width: 25%;
+  }
+}
+
+.border-orangered { 
+  border: 1px solid orangered;
+}
+.border-charcoal { 
+  border: 1px solid $charcoal;
+}
 
 .sr-only {
   position: absolute;
@@ -138,11 +173,17 @@ $breakpoints: (
   border: 0;
 }
 
+.m1 {
+  margin: 1rem;
+}
 .mt_5 {
   margin-top: 0.5rem;
 }
 .mt1 {
   margin-top: 1rem;
+}
+.mt2 {
+  margin-top: 2rem;
 }
 .mt3 {
   margin-top: 3rem;
@@ -152,4 +193,11 @@ $breakpoints: (
 }
 .mb1 {
   margin-bottom: 1rem;
+}
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+.p1 {
+  padding: 1rem;
 }
