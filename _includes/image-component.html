@@ -1,6 +1,12 @@
-<div class="ImageComponent">
+<div class="ImageComponent" id="{{ include.img_key}}">
   <figure>
-    <img src="{{ include.src }}" alt="{{ include.alt }}" />
+    <div class="ImageComponent--image-wrapper flex align-center">
+      <img src="{{ include.src }}" alt="{{ include.alt }}" />
+    </div>
     <figcaption>{{ include.caption }}</figcaption>
   </figure>
+
+  <script>
+    preloadImage("{{ include.img_key }}");
+  </script>
 </div>

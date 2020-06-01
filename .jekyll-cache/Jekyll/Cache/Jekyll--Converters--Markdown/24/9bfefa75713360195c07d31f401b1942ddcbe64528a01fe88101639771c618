@@ -1,8 +1,14 @@
-I"k<div class="ImageComponent">
+I"<div class="ImageComponent" id="pines__shake-video-still">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png" alt="070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others." />
+    <div class="ImageComponent--image-wrapper flex align-center">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/070-shake-pines.png" alt="070 Shake lights a cigarette in front of a group of her friend after a fight. One young man is supported between two others." />
+    </div>
     <figcaption>The music video for 070 Shake's song "Pines" includes a gnarly fight scene.</figcaption>
   </figure>
+
+  <script>
+    preloadImage("pines__shake-video-still");
+  </script>
 </div>
 
 <p>A few days after the first official cases of COVID-19 hit the streets of New York City, I am embarassed to admit I was not yet cowering in my apartment. Instead I was at Webster Hall, in a claustrophobic crowd of fans waiting to see two members of the 070 collective. The first act was 070 Phi, an oddly wise Gen Z-er with glasses and braids, serving up some good quality rap. Then 070 Shake came along to launched us into a new dimension.</p>
@@ -20,14 +26,36 @@
 <p>In 1993 Nirvana reinterpreted “Where Did You Sleep Last Night” and recorded it as part of their famed MTV Unplugged set.<sup>1</sup> It was creepy. When I discovered Nirvana like a decade later, scouring my parents’ house for literally anything to drown out the sounds of middle school, it was creepy, hearing this man shrieking at this young woman, incensed she would lie to him about where she slept last night. It chilled me to hear this hushed-up reality of domestic male rage being admitted in this way. I think I assumed it was about infidelity, and maybe for Cobain it was. Like a lot of Nirvana lyrics it felt like a riddle, a mystery you could flip different ways, and I held tight to it as something I might understand later.</p>
 
 <div class="DoubleImageComponent">
+  <div class="DoubleImageComponent__col">
+    <div class="ImageComponent" id="pines__leadbelly">
   <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Huddie_Ledbetter_%28Leadbelly%29_taken_by_Alan_Lomax.jpg" alt="A black and white photograph of Huddie Ledbetter wearing a plaid suit and holding an acoustic guitar" />
+    <div class="ImageComponent--image-wrapper flex align-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Huddie_Ledbetter_%28Leadbelly%29_taken_by_Alan_Lomax.jpg" alt="A black and white photograph of Huddie Ledbetter wearing a plaid suit and holding an acoustic guitar" />
+    </div>
     <figcaption>A photograph of Huddie "Leadbelly" Ledbetter, taken by Alan Lomax in the 1940's.</figcaption>
   </figure>
+
+  <script>
+    preloadImage("pines__leadbelly");
+  </script>
+</div>
+
+  </div>
+  <div class="DoubleImageComponent__col">
+    <div class="ImageComponent" id="pines__cobain">
   <figure>
-    <img src="https://66.media.tumblr.com/92d772fe3f0c7bd23616093da6e91e04/tumblr_oa83w7bhYt1tyu4qdo1_400.gifv" alt="Cobain passionately sings the chorus, seated at the mic with his eyes closed." />
+    <div class="ImageComponent--image-wrapper flex align-center">
+      <img src="https://66.media.tumblr.com/92d772fe3f0c7bd23616093da6e91e04/tumblr_oa83w7bhYt1tyu4qdo1_400.gifv" alt="Cobain passionately sings the chorus, seated at the mic with his eyes closed." />
+    </div>
     <figcaption>Kurt Cobain singing "Where Did You Sleep Last Night" with Nirvana at their  historic MTV Unplugged show.</figcaption>
   </figure>
+
+  <script>
+    preloadImage("pines__cobain");
+  </script>
+</div>
+
+  </div>
 </div>
 
 <p>Eventually I did an internet search and found out the song was actually a lot older. In 1941 and 1952 Bill Monroe (called the “Father of Bluegrass”)<sup>2</sup> recorded versions of a southern Appalachian folk song sometimes also called “The Longest Train” under the name “In the Pines.”<sup>1</sup> The lyrics in this version describe a train that took three hours to pass and allude to a “little girl” the narrator is mourning without being too specific. In 1944 and 1948 Huddie Ledbetter (stage name: Lead Belly) interpreted the folk song in a more violent an haunting way. Here the narrator seems to be a Black woman mourning the loss of her husband and daughter, decapitated by a moving train and dumped in a pine forest where she cannot find them. Many other versions of this song have been recorded, in music genres from Cajun zydeco to British pop, but the Lead Belly version is the version Kurt Cobain learned from fellow 1990’s Seattle musician Mark Lanegan, and based on the grungy heavy-distortion baseline that opens 070 Shake’s “The Pines”, I’m pretty sure this is the version being referenced here.</p>

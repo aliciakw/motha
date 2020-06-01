@@ -1,8 +1,14 @@
-I"Œ$<div class="ImageComponent">
+I"—&<div class="ImageComponent" id="labyrinths__all-saints">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg" alt="A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass." />
+    <div class="ImageComponent--image-wrapper flex align-center">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/burlington-all-saints-comm-labyrinth.jpg" alt="A photo taken from the entrance of a walking labyrinth laid out in the middle of a slightly patchy field of grass." />
+    </div>
     <figcaption>The labyrinth at All Saints Community Labyrinth follows the Chartes pattern.</figcaption>
   </figure>
+
+  <script>
+    preloadImage("labyrinths__all-saints");
+  </script>
 </div>
 
 <h3 id="entering">Entering</h3>
@@ -19,11 +25,17 @@
   </li>
 </ol>
 
-<div class="ImageComponent">
+<div class="ImageComponent" id="labyrinths__artress">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg" alt="A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram." />
+    <div class="ImageComponent--image-wrapper flex align-center">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-lauren-artress.jpg" alt="A silver haired woman with glasses sits in an arm chair, gesturing toward a circular labyrinth diagram." />
+    </div>
     <figcaption>Lauren Artress, founder of the Labyrinth Movement, holds a diagram of the floor pattern Chartres Cathedral.</figcaption>
   </figure>
+
+  <script>
+    preloadImage("labyrinths__artress");
+  </script>
 </div>
 
 <h3 id="arriving">Arriving</h3>
@@ -40,11 +52,17 @@
   </li>
 </ol>
 
-<div class="ImageComponent">
+<div class="ImageComponent" id="labyrinths__cretan-coins">
   <figure>
-    <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg" alt="Black and white scanned images of two silver coins bearing the Greek letters K N O." />
+    <div class="ImageComponent--image-wrapper flex align-center">
+      <img src="https://aliciawillett.s3.amazonaws.com/images/blog/labyrinth-cretan-coin.jpg" alt="Black and white scanned images of two silver coins bearing the Greek letters K N O." />
+    </div>
     <figcaption>Silver coins from second century Crete embossed with the labyrinth illustrate the Classical 7-course pattern.</figcaption>
   </figure>
+
+  <script>
+    preloadImage("labyrinths__cretan-coins");
+  </script>
 </div>
 
 <h3 id="leaving">Leaving</h3>

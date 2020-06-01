@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HISTORY GLOWS RED"
+title: History Glows Red
 subtitle: Checking out the art of Curtis Talwst Santiago
 location: "New York, NY"
 refs_list: 
@@ -9,7 +9,8 @@ refs_list:
 ---
 
 {%
- include image-component.html 
+ include image-component.html
+ img_key="talwst__knight-diorama"
  src="https://format-com-cld-res.cloudinary.com/image/private/s--dWZ_0RMF--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e42850d2e43af68f9c786a5841b3554e/CSA-34a-SC.jpg?1200"
  caption="Artist as Knight (self portrait). Curtis Talwst Santiago. 2018"
 %}
@@ -22,6 +23,7 @@ Upon entering, visitors first encounter a life-sized, beaded suit of armor, nest
 
 {%
   include image-component.html
+  img_key="talwst__install-1"
   src="https://format-com-cld-res.cloudinary.com/image/private/s--YtKPvDxr--/c_limit,g_center,h_65535,w_2500/fl_keep_iptc.progressive,q_95/IMG_2004_paj12w.jpg?2500"
   caption="Installation view at the Drawing Center in February of 2020."
 %}
@@ -34,8 +36,10 @@ The entrance to the show immediately introduces Sir Dingolay in  the form of  hi
 
 {%
  include double-image-component.html
+ img_key_one="talwst__morte-do-cavaliero"
  src_one="https://format-com-cld-res.cloudinary.com/image/private/s--atUKTDMv--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e249373eab34260530f3d240a269f61a/CSA-9-PTG.jpg?1200"
  caption_one="\"A morte do cavaleiro prateado.\" Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018"
+ img_key_two="talwst__ancestral-vision"
  src_two="https://format-com-cld-res.cloudinary.com/image/private/s--xejNTiIN--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/60540d89c0012c97d3e5fe228282b82f/CSA-7-PTG.jpg?1200"
  caption_two="\"Red Face Ancestral Vision 1.\" Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018"
 %}
@@ -49,8 +53,10 @@ Another motif is “red face”. Red clay face paint is a central part of of the
 
 {% 
  include double-image-component.html
+ img_key_one="talwst__promise"
  src_one="https://format-com-cld-res.cloudinary.com/image/private/s--96jRsjOb--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/17bb9e11cf6b1ef5b5d7090a21b25d7a/CSA-10-PTG.jpg?1200"
  caption_one="\"The Four of Them Made a Promise.\" Spray paint, oil, charcoal, pastel, acrylic on canvas. 2018"
+ img_key_two="talwst__sir-dingolay"
  src_two="https://format-com-cld-res.cloudinary.com/image/private/s--7zYpIEB3--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/IMG_2020_qhrl27.jpg?1200"
  caption_two="\"Sir Dingolay\". Video. 2020."
 %}
@@ -63,6 +69,7 @@ A <a href="https://vimeo.com/398961557" target="_blank">music video</a> plays in
 
 {%
  include image-component.html 
+ img_key="talwst__santiago-with-knight"
  src="https://aliciawillett.s3.amazonaws.com/images/blog/curtis-talwst-santiago-with-armor.jpg"
  caption="The artist poses next to \"African Knight I\" (wire and beads, on steel armature, 2018)."
 %}

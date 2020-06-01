@@ -11,7 +11,10 @@
     margin-bottom: 3rem;
   }
 
-  ol li { margin-bottom: 1rem; }
+  ol li {
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+  }
 
   &__References {
     ol {

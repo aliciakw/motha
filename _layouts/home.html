@@ -5,8 +5,7 @@ layout: default
 <div class="home">
   <div class="md-flex flex-row flex-1">
     <div class="md-w75">
-      <h2 class="mb2 subtitle underlined">{{ site.description }}</h2>
-      <h3 class="mt3 mb1 copy"><strong>Recent Posts</strong></h3>
+      <h3 class="mb1 copy"><strong>Recent Posts</strong></h3>
       <ul class="post-list">
         {%- if site.posts.size > 0 -%}
           {%- for post in site.posts -%}
@@ -14,7 +13,7 @@ layout: default
               {%- assign date_format = site.date_format | default: "%A, %B %e, %Y" -%}
               <span class="detail color-grey">{{ post.date | date: date_format }}</span>
               <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
+                <a class="post-link uppercase" href="{{ post.url | relative_url }}">
                   {{ post.title | escape }}
                 </a>
               </h3>
