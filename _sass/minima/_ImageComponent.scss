@@ -13,8 +13,8 @@
   .ImageComponent--image-wrapper {
     background-color: $leaf-green;
     opacity: 0.15;
-    min-height: 300px;
-    transition: opacity $transition, background-color $transition, height $transition;
+    min-height: 250px;
+    transition: opacity $transition, background-color $transition, min-height $transition;
   }
 
   img {

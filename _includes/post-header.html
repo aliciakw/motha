@@ -1,6 +1,4 @@
 <div class="mb1">
-  <h1 class="heading mt1 mb1" itemprop="name headline">{{ page.title | escape }}</h1>
-  <h2 class="subheading italic mb1 flex-grow">{{page.subtitle | escape }}</h2>
   <div class="md-flex flex-row">
     <p class="dt-published detail mb_5 md-flex flex-grow">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -9,4 +7,6 @@
     </p>
     <p class="dt-published detail mb_5">{{ page.location}}</p>
   </div>
+  <h1 class="subheading italic mt1 mb1" itemprop="name headline">{{ page.subtitle | escape }}</h1>
+  <h2 class="heading uppercase mb1 flex-grow">{{page.title | escape }}</h2>
 </div>

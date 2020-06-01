@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Monofett&display=swap");
-.monofett { font-family: "Monofett", cursive; }
-
 .color-mint-green { color: #efffe5; }
 
 .color-leaf-green { color: #78cc6e; }
@@ -91,8 +88,6 @@ table td { border: 1px solid #e8e8e8; }
 /* ################## */
 /*       Layout       */
 /* ################## */
-.page-content { padding: 2rem 0; flex: 1; }
-
 .site-header { min-height: 3.73rem; position: relative; }
 
 .site-nav { float: right; line-height: 3.375rem; }
@@ -249,6 +244,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .italic { font-style: italic; }
 
+.uppercase { text-transform: uppercase; }
+
+.cursive { font-family: cursive; }
+
 .underlined { border-bottom: 1px solid #444; padding-bottom: 0.25rem; }
 
 .site-title { font-size: 4.5rem; line-height: 4.5rem; letter-spacing: 0.35rem; margin-top: 2rem; word-break: break-all; }
@@ -309,7 +308,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .ImageComponent figure figcaption { margin-top: 0.5rem; font-style: italic; min-height: 2rem; }
 
-.ImageComponent .ImageComponent--image-wrapper { background-color: #78cc6e; opacity: 0.15; min-height: 300px; transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out, height 0.2s ease-in-out; }
+.ImageComponent .ImageComponent--image-wrapper { background-color: #78cc6e; opacity: 0.15; min-height: 250px; transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out, min-height 0.2s ease-in-out; }
 
 .ImageComponent img { opacity: 0; width: 100%; transition: opacity 0.2s ease-in-out; }
 

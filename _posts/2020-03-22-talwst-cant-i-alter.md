@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HISTORY GLOWS RED"
+title: History Glows Red
 subtitle: Checking out the art of Curtis Talwst Santiago
 location: "New York, NY"
 refs_list: 

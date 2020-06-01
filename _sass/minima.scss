@@ -7,12 +7,6 @@ $base-font-size:   1rem !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.5 !default;
 
-@import url('https://fonts.googleapis.com/css?family=Monofett&display=swap');
-$monofett: "Monofett", cursive;
-.monofett {
-  font-family: $monofett;
-}
-
 $spacing-unit:     2rem !default;
 
 $mint-green: #efffe5;
