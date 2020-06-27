@@ -3,6 +3,7 @@ layout: post
 title:  EVERYTHING IS AN ECHO OF ITSELF
 subtitle: Stepping into the Labyrinth
 location: Burlington, Vermont
+thumbnail: "https://aliciawillett.s3.amazonaws.com/images/blog/thumbnails/labyrinth-thumbnail.jpg"
 refs_list:
   - “Labyrinth,” last modified May 7, 2020, https://en.wikipedia.org/wiki/Labyrinth.
   - “Veriditas Staff in the service of the Labyrinth,” last modified 2019, https://veriditas.org/staff.

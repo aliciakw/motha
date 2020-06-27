@@ -3,6 +3,7 @@ layout: post
 title: History Glows Red
 subtitle: Checking out the art of Curtis Talwst Santiago
 location: "New York, NY"
+thumbnail: "https://aliciawillett.s3.amazonaws.com/images/blog/thumbnails/talwst-thumbnail.jpg"
 refs_list: 
   - “Curtis Talwst Santiago - Can't I Alter,” last modified 2020, http://www.drawingcenter.org/en/drawingcenter/5/exhibitions/6/current/2245/curtis-talwst-santiago/.
   - “Curtis Talwst Santiago,” last modified 2020, https://www.curtissantiago.art/.

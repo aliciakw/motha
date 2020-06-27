@@ -6,22 +6,27 @@ layout: default
   <div class="md-flex flex-row flex-1">
     <div class="md-w75">
       <h3 class="mb1 copy"><strong>Recent Posts</strong></h3>
-      <ul class="post-list">
+      <ul class="m0 list-style-none">
         {%- if site.posts.size > 0 -%}
           {%- for post in site.posts -%}
-            <li class="mb1">
-              {%- assign date_format = site.date_format | default: "%A, %B %e, %Y" -%}
-              <span class="detail color-grey">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link uppercase" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              <p class="italic">{{ post.subtitle }}</p>
-              {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-              {%- endif -%}
-            </li>
+              <li class="mb1 flex flex-row">
+                <div class="thumbnail mr1">
+                  <img src="{{ post.thumbnail }}" />
+                </div>
+                <div>
+                  {%- assign date_format = site.date_format | default: "%A, %B %e, %Y" -%}
+                  <span class="detail color-grey">{{ post.date | date: date_format }}</span>
+                  <h3>
+                    <a class="post-link uppercase" href="{{ post.url | relative_url }}">
+                      {{ post.title | escape }}
+                    </a>
+                  </h3>
+                  <p class="italic">{{ post.subtitle }}</p>
+                  {%- if site.show_excerpts -%}
+                  {{ post.excerpt }}
+                  {%- endif -%}
+                </div>
+              </li>
           {%- endfor -%}
         {%- endif -%}
       </ul>
