@@ -302,7 +302,7 @@ table td { border: 1px solid #e8e8e8; }
 .Footer__image { width: auto; }
 
 @media (min-width: 500px) { .Footer__input { width: auto; }
-  .Footer__image { width: 175px; } }
+  .Footer__image { width: 14rem; } }
 
 .ImageComponent figure { max-width: 100%; margin: 2rem 0 1rem 0; }
 
@@ -330,7 +330,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .Post__spacer { width: 100%; margin-bottom: 1rem; }
 
-.PostLink__thumbnail { clip-path: inset(0); height: 6rem; width: 6rem; opacity: 50%; transition: opacity 0.2s ease-in-out; }
+.PostHeader__thumbnail { clip-path: inset(0); height: 8rem; width: 6rem; opacity: 75%; }
+
+.PostLink__thumbnail { clip-path: inset(0); height: 8rem; width: 6rem; opacity: 50%; transition: opacity 0.2s ease-in-out; }
 
 .PostLink:hover a { color: #111; }
 

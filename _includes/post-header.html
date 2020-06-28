@@ -7,6 +7,13 @@
     </p>
     <p class="dt-published detail mb_5">{{ page.location}}</p>
   </div>
-  <h1 class="subheading italic mt1 mb1" itemprop="name headline">{{ page.subtitle | escape }}</h1>
-  <h2 class="heading uppercase mb1 flex-grow">{{page.title | escape }}</h2>
+  <div class="flex flex-row">
+    <div class="PostHeader__thumbnail mr1">
+      <img src="{{page.thumbnail }}" />
+    </div>
+    <div class="md-flex flex-col">
+      <h1 class="subheading italic " itemprop="name headline">{{ page.subtitle | escape }}</h1>
+      <h2 class="heading uppercase flex-grow">{{page.title | escape }}</h2>
+    </div>
+  </div>
 </div>
