@@ -78,3 +78,7 @@
   display: block;
   @include relative-font-size(1.4);
 }
+
+.list-style-none {
+  list-style: none;
+}

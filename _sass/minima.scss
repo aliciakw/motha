@@ -69,7 +69,9 @@ $breakpoints: (
   "minima/DoubleImageComponent",
   "minima/Footer",
   "minima/ImageComponent",
-  "minima/Post"
+  "minima/Post",
+  "minima/PostHeader",
+  "minima/PostLink"
 ;
 
 
@@ -169,8 +171,14 @@ $breakpoints: (
   border: 0;
 }
 
+.m0 {
+  margin: 0;
+}
 .m1 {
   margin: 1rem;
+}
+.mr1 {
+  margin-right: 1rem;
 }
 .mt_5 {
   margin-top: 0.5rem;
@@ -196,4 +204,8 @@ $breakpoints: (
 
 .p1 {
   padding: 1rem;
+}
+
+.debug {
+  @extend .border-orangered;
 }
