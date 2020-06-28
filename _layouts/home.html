@@ -9,10 +9,10 @@ layout: default
       <ul class="m0 list-style-none">
         {%- if site.posts.size > 0 -%}
           {%- for post in site.posts -%}
-              <li class="mb1 flex flex-row">
-                <div class="thumbnail mr1">
-                  <img src="{{ post.thumbnail }}" />
-                </div>
+              <li class="PostLink mb1 flex flex-row">
+                <a class="PostLink__thumbnail mr1" href="{{ post.url | relative_url }}">
+                  <img src="{{ post.thumbnail }}" alt="thumbnail for {{post.title}}" />
+                </a>
                 <div>
                   {%- assign date_format = site.date_format | default: "%A, %B %e, %Y" -%}
                   <span class="detail color-grey">{{ post.date | date: date_format }}</span>

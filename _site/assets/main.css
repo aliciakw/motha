@@ -109,8 +109,6 @@ table td { border: 1px solid #e8e8e8; }
   .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; }
   .site-nav .page-link:not(:last-child) { margin-right: 0; } }
 
-.thumbnail { clip-path: inset(0); height: 6rem; width: 6rem; opacity: 50%; }
-
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 
@@ -331,6 +329,12 @@ table td { border: 1px solid #e8e8e8; }
 .Post__References ol { list-style-type: decimal; }
 
 .Post__spacer { width: 100%; margin-bottom: 1rem; }
+
+.PostLink__thumbnail { clip-path: inset(0); height: 6rem; width: 6rem; opacity: 50%; transition: opacity 0.2s ease-in-out; }
+
+.PostLink:hover a { color: #111; }
+
+.PostLink:hover .PostLink__thumbnail { opacity: 75%; }
 
 .flex { display: flex; }
 
