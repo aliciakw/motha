@@ -246,6 +246,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .cursive { font-family: cursive; }
 
+.text-underline { text-decoration: underline; }
+
 .underlined { border-bottom: 1px solid #444; padding-bottom: 0.25rem; }
 
 .site-title { font-size: 4.5rem; line-height: 4.5rem; letter-spacing: 0.35rem; margin-top: 2rem; word-break: break-all; }
@@ -318,7 +320,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .ImageComponent--loaded .ImageComponent--image-wrapper { background: none; opacity: 1; }
 
-@media (min-width: 770px) { .ImageComponent figure { max-width: 380px; } }
+@media (min-width: 770px) { .ImageComponent--medium figure { max-width: 380px; }
+  .ImageComponent--large figure { max-width: 500px; }
+  .ImageComponent--wide figure { max-width: 100%; } }
 
 .Post h3 { margin: 1rem 0; }
 

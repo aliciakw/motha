@@ -1,8 +1,14 @@
-<div class="ImageComponent" id="{{ include.img_key}}">
+{%- if include.size == "wide" -%}
+<div class="ImageComponent ImageComponent--wide" id="{{ include.img_key}}">
+{%- elsif include.size == "large" -%}
+<div class="ImageComponent ImageComponent--large" id="{{ include.img_key}}">
+{%- else -%}
+<div class="ImageComponent ImageComponent--medium" id="{{ include.img_key}}">
+{%- endif -%}
   <figure>
     <div class="ImageComponent--image-wrapper flex align-center">
       <img src="{{ include.src }}" alt="{{ include.alt }}" />
-    </div>
+    </div> 
     <figcaption>{{ include.caption }}</figcaption>
   </figure>
 

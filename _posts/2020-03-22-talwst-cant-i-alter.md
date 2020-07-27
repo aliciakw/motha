@@ -1,6 +1,6 @@
 ---
 layout: post
-title: History Glows Red
+title: Glowing Red Memories
 subtitle: Checking out the art of Curtis Talwst Santiago
 location: "New York, NY"
 thumbnail: "https://aliciawillett.s3.amazonaws.com/images/blog/thumbnails/talwst-thumbnail.jpg"

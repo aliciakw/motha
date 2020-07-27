@@ -5,10 +5,10 @@
 .italic { font-style: italic; }
 .uppercase { text-transform: uppercase; }
 .cursive { font-family: cursive; }
+.text-underline { text-decoration: underline; }
 .underlined {
   border-bottom: 1px solid $charcoal;
   padding-bottom: 0.25rem;
-  
 }
 
 .site-title {
