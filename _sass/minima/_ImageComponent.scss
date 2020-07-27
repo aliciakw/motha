@@ -36,8 +36,10 @@
       opacity: 1;
     }
   }
+}
 
-  @media (min-width: map-get($breakpoints, md)) {
-    figure { max-width: 380px; }
-  }
+@media (min-width: map-get($breakpoints, md)) {
+  .ImageComponent--medium figure { max-width: 380px; }
+  .ImageComponent--large figure { max-width: 500px; }
+  .ImageComponent--wide figure { max-width: 100%; }
 }
