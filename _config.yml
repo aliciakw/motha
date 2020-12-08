@@ -21,7 +21,7 @@
 title: M.O.T.
 email: aliciayesorno@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  a blog, a "mother-of-thousands" of things.
+  musings on art, history, & eventually the future
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%m/%d/%Y"

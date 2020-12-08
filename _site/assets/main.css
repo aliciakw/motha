@@ -258,7 +258,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .subtitle { font-size: 1.5rem; letter-spacing: 0.025rem; }
 
-@media (min-width: 500px) { .subtitle { font-size: 1.75rem; } }
+@media (min-width: 500px) { .subtitle { font-size: 1.5rem; } }
 
 .heading, .Post h3 { font-size: 1.75rem; letter-spacing: 0.3rem; }
 
@@ -278,7 +278,7 @@ table td { border: 1px solid #e8e8e8; }
 
 @media (min-width: 770px) { .post-title { font-size: 2.25rem; } }
 
-.post-link { display: block; font-size: 1.4rem; }
+.post-link { display: block; font-size: 1.75rem; }
 
 .list-style-none { list-style: none; }
 
@@ -340,7 +340,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .PostHeader__thumbnail { clip-path: inset(0); height: 8rem; width: 6rem; opacity: 75%; }
 
-.PostLink__thumbnail { clip-path: inset(0); height: 8rem; width: 6rem; opacity: 50%; transition: opacity 0.2s ease-in-out; }
+.PostLink__thumbnail { clip-path: inset(0); height: 5.5rem; width: 6rem; opacity: 50%; transition: opacity 0.2s ease-in-out; }
 
 .PostLink:hover a { color: #111; }
 

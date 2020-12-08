@@ -19,21 +19,20 @@
       </div>
     </div>
 
-    <div class="flex flex-row justify-center mt2">
-      <div class="flex flex-col text-center align-center w100 md-w33 p1">
-        <a href="/">
-          <img src="https://aliciawillett.s3.amazonaws.com/images/blog/mot-dither.jpg" class="Footer__image"
-          alt="An image of a Mother of Thousands plant with many small plantlets forming on its waxy green leaves." />
-        </a>
-        {%- assign date_format = default: "%A, %B %e, %Y" -%}
-        <p class="detail mt1">
-          &copy; {{ site.time | date: "%m/%d/%Y @ %I:%M %p" }}, by Alicia No.
-        </p>
-        <p class="detail italic mt_5">
+    <div class="flex flex-col align-center mt2">
+      <a href="/">
+        <img src="https://aliciawillett.s3.amazonaws.com/images/blog/mot-dither.jpg" class="Footer__image"
+        alt="An image of a Mother of Thousands plant with many small plantlets forming on its waxy green leaves." />
+      </a>
+      {%- assign date_format = default: "%A, %B %e, %Y" -%}
+      <p class="small mt1 text-center">
+        &copy; Alicia No {{ site.time | date: "%m/%d/%Y @ %I:%M %p" }}.
+        <br/>
+        <em>
           All content is based on the opinions and research of the author, an imperfect human.
           Thanks for reading!
-        </p>
-      </div>
+        </em> 
+      </p>
     <div>
   </div>
 </footer>

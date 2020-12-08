@@ -34,7 +34,7 @@
   letter-spacing: 0.025rem;
 
   @media(min-width: map-get($breakpoints, sm)) {
-    @include relative-font-size(1.75);
+    @include relative-font-size(1.5);
   }
 }
 
@@ -80,7 +80,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.4);
+  @include relative-font-size(1.75);
 }
 
 .list-style-none {
