@@ -272,6 +272,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .detail { font-size: 0.875rem; }
 
+.small { font-size: 0.75rem; }
+
 .post-title { font-size: 2.625rem; letter-spacing: -1px; line-height: 1; }
 
 @media (min-width: 770px) { .post-title { font-size: 2.25rem; } }
@@ -319,6 +321,8 @@ table td { border: 1px solid #e8e8e8; }
 .ImageComponent--loaded img { opacity: 1; }
 
 .ImageComponent--loaded .ImageComponent--image-wrapper { background: none; opacity: 1; }
+
+.ImageComponent--small figure { max-width: 224px; }
 
 @media (min-width: 770px) { .ImageComponent--medium figure { max-width: 380px; }
   .ImageComponent--large figure { max-width: 500px; }

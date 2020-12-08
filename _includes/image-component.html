@@ -1,5 +1,7 @@
 {%- if include.size == "wide" -%}
 <div class="ImageComponent ImageComponent--wide" id="{{ include.img_key}}">
+{%- elsif include.size == "small" -%}
+<div class="ImageComponent ImageComponent--small" id="{{ include.img_key}}">
 {%- elsif include.size == "large" -%}
 <div class="ImageComponent ImageComponent--large" id="{{ include.img_key}}">
 {%- else -%}
