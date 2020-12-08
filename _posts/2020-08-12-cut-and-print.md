@@ -9,18 +9,13 @@ refs_list:
   - "\"Kitty Tsui, 2016 Phoenix Award Honoree.\" https://apiqwtc.org/phoenix-award-honoree/2016-kitty-tsui/"
 ---
 
-_Lately I’ve realized a major crisis affecting my ability to make art and take up space in the world is the feeling that as a mixed person, I culturally don’t exist. This felt like a major roadblock, until the movie “The Watermelon Woman” introduced me to the idea that you can write your own history. Then I rembered my friend Sen had participated in a workshop where they explored just this topic. I called them up back in August and asked them a bunch of questions about it!_
-<br/><br/>
+<p class="small underlined">
+  <em>Lately I've become obsessed with the idea that you can write your own history (instead of waiting around for the powers-that-be to decide what "history" is). I rembered my friend Sen telling me they participated in something called the Queer Ancestors Project, so called them up and asked them a bunch of questions about it!</em><br/>
+  <em>The following transcript has been edited for length and clarity:</em>
+  <br/><br/>
+</p>
 
-<p class="small"><em>( The following transcript has been edited for length and clarity.)</em></p>
-
-{%
- include image-component.html 
- img_key="sen__qap-logo"
- size=""
- src="https://aliciawillett.s3.amazonaws.com/images/blog/sen-qap-logo.jpg"
- alt="A linoprint depicting the words Queer Ancestors Project with trees on either side"
-%}
+<br/>
 
 __Alicia No:__ In 2019 you were part of a printmaking workshop called The Queer Ancestors Project, where you discovered your own Queer ancestors and made artwork that told the story of them and of you. How did you become involved in this project?
 <br/><br/>

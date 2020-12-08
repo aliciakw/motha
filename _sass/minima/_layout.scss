@@ -6,6 +6,11 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  &__button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
 }
   
 .site-nav {
@@ -84,3 +89,21 @@
   }
 }
 
+@media (min-width: map-get($breakpoints, sm)) {
+  .site-header__button {
+    top: 70%;
+    right: 10%;
+  }
+}
+@media (min-width: map-get($breakpoints, md)) {
+  .site-header__button {
+    top: 70%;
+    right: 20%;
+  }
+}
+@media (min-width: map-get($breakpoints, lg)) {
+  .site-header__button {
+    top: 70%;
+    right: 30%;
+  }
+}

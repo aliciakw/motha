@@ -18,8 +18,8 @@
   margin-top: 2rem;
   word-break: break-all;
 
-  @media(min-width: map-get($breakpoints, xs)) {
-    @include relative-font-size(5.5);
+  @media(min-width: map-get($breakpoints, sm)) {
+    @include relative-font-size(6);
     line-height: 5rem;
   }
 
@@ -80,7 +80,10 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.75);
+  @include relative-font-size(1.25);
+  @media (min-width: map-get($breakpoints, sm)) {
+     @include relative-font-size(1.75);
+  }
 }
 
 .list-style-none {
