@@ -36,6 +36,8 @@
       opacity: 1;
     }
   }
+
+  &--small figure { max-width: 224px; }
 }
 
 @media (min-width: map-get($breakpoints, md)) {

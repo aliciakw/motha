@@ -1,0 +1,83 @@
+$oval-button-size-desk: 110px;
+$oval-button-size-mobile: 75px;
+
+.Button {
+  &--oval {
+    font-weight: bold; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $oval-button-size-mobile;
+    width: $oval-button-size-mobile;
+    text-align: center;
+    position: relative;
+    @include relative-font-size(0.75);
+    
+    span {
+      z-index: 3;
+      color: $black;
+    }
+
+    &:hover {
+       span {
+        color: $leaf-green;
+      }
+      &::before {
+        background-color: $black;
+      }
+      &::after {
+        background-color: $leaf-green;
+      }
+    }
+
+    &::before {
+      content: " ";
+      position: absolute;
+      height: $oval-button-size-mobile;
+      width: $oval-button-size-mobile;
+      border: 2px solid $black;
+      background-color: $mint-green;
+      box-sizing: border-box;
+      border-radius: 50%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      transition: all $transition-short;
+    }
+
+    &::after {
+      content: " ";
+      position: absolute;
+      height: $oval-button-size-mobile;
+      width: $oval-button-size-mobile;
+      border: 2px solid $black;
+      background-color: $black;
+      box-sizing: border-box;
+      border-radius: 50%;
+      top: 4px;
+      left: 7px;
+      z-index: 0;
+      transition: all $transition-short;
+    }
+  }
+}
+
+@media (min-width: map-get($breakpoints, sm)) {
+  .Button {
+    &--oval {
+      height: $oval-button-size-desk;
+      width: $oval-button-size-desk;
+      @include relative-font-size(0.875);
+      &::before {
+        height: $oval-button-size-desk;
+        width: $oval-button-size-desk;
+      }
+      &::after {
+        height: $oval-button-size-desk;
+        width: $oval-button-size-desk;
+        top: 5px;
+        left: 12px;
+      }
+    }
+  } 
+}

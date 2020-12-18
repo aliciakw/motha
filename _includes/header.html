@@ -4,9 +4,9 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a rel="author" href="{{ "/" | relative_url }}">
-      <h1 class="site-title cursive mt3">{{ site.title }}</h1>
+      <h1 class="site-title cursive mt4">{{ site.title }}</h1>
     </a>
-    <h2 class="mt1 mb2 subtitle underlined">{{ site.description }}</h2>
+    <h2 class="mt_5 mb2 copy underlined">{{ site.description }}</h2>
     <!-- {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -29,4 +29,10 @@
       </nav>
     {%- endif -%} -->
   </div>
-</header>
+  <div class="site-header__button">
+    <a class=" Button--oval" href="https://tinyletter.com/m-o-t" target="_blank">
+      <span>subscribe!</span>
+    </a>
+  </div>
+  
+ </header>
