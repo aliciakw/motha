@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  EVERYTHING IS AN ECHO OF ITSELF
-subtitle: Stepping into the Labyrinth
+subtitle: Lost in the New Age Labyrinth (& Found)
 location: Burlington, Vermont
 thumbnail: "https://aliciawillett.s3.amazonaws.com/images/blog/thumbnails/labyrinth-thumbnail.jpg"
 refs_list:
