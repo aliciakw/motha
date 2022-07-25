@@ -4,12 +4,87 @@
     height: 7rem;
     width: 9rem;
     opacity: 50%;
-    transition: opacity $transition;
+    mix-blend-mode: luminosity;
+    transition: opacity $transition, mix-blend-mode $transition;
   }
 
   &:hover {
     .PostLink__thumbnail {
-      opacity: 75%;
+      mix-blend-mode: hard-light;
+      opacity: 60%;
+    }
+  }
+
+  &--featured {
+    position: relative;
+    height: 30rem;
+
+    h2 {
+      background-color: white;
+      padding: 0 0.5rem;
+      color: black;
+    }
+
+    h3 {
+      background-color: white;
+      padding: 0 0.5rem;
+    }
+
+    p {
+      background-color: white;
+      opacity: 80%;
+      width: 75%;
+      padding: 0.5rem;
+    }
+
+    button {
+      color: white;
+      background-color: $black;
+      border: 0;
+      margin-right: 6rem;
+      position: absolute;
+      z-index: 2;
+    }
+
+    &__title-container {
+      position: absolute;
+      top: 4rem;
+      left: 2rem;
+      transform: translateY(50%);
+      z-index: 2;
+      gap: 0.5rem;
+    }
+    &__illustration {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      clip-path: inset(0);
+      height: 30rem;
+      width: 24rem;
+      opacity: 70%;
+    }
+    &__thumbnail {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      clip-path: inset(0);
+      height: 20rem;
+      width: 20rem;
+      opacity: 70%;
+      mix-blend-mode: luminosity;
+    }
+
+    &:hover {
+      .PostLink--featured__illustration {
+        opacity: 60%;
+      }
+      .PostLink--featured__thumbnail {
+        mix-blend-mode: hard-light;
+        opacity: 60%;
+      }
     }
   }
 }
