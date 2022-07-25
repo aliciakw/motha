@@ -3,6 +3,7 @@ layout: post
 title:  "Thank You For Feeding Me"
 subtitle: Mary Cassatt, Women Workers Mega-Stan
 thumbnail: "https://aliciawillett.s3.amazonaws.com/images/blog/thumbnails/feed-me-cassatt-thumbnail.jpg"
+illustration: "https://aliciawillett.s3.amazonaws.com/images/blog/feed-me-cassatt-the-childs-bath.jpeg"
 location: "Philadelphia, PA"
 ---
 
@@ -96,13 +97,7 @@ If the baby and I were to continue as body-feeding partners, this is how I wante
 
 What I took away from this, the most ordinary of miracles, is that symbiosis is a choice. The thing about our species is there is no “default setting”. Reproduce, or not. Caretake, or not. Body-feed, or feed another way (fed is best). Dominate, or coexist. We choose the work we want to do in the world, and that in turn makes the world we give future generations to work in.
 
-{%
- include image-component.html 
- img_key="feed-me__cassatt-photo"
- src="https://aliciawillett.s3.amazonaws.com/images/blog/feed-me-mary-cassatt-1914.jpeg"
- alt="A black and white photo of a gray-haired white woman wearing a feathered hat, fur coat and long beaded necklace"
- caption="Mary Cassatt in 1914"
-%}
+<div class="Post__spacer"></div>
 
 ### Smallness
 
@@ -111,3 +106,11 @@ Since the baby, my world has become suddenly very small, but also deep. Small mo
 I want them to remember the feeling that the world is abundant, but not infinite. To know what it feels like to be sated, so they don’t resort to gluttony or greed. To know what it feels like to be cared for so they’ll know how to care for themself and others. I also want them to be scrappy and to tread on the Earth lightly. It feels somewhat reckless to be bringing a new human into the world when I know they’ll have to grapple with a climate crisis, but it would feel awfully pessimistic not to, and so it’s important to me that the way in which we’re doing it be a vote for the kind of world I want my kid to be born into. As a techno-minimalist (tech is cool, products are fine, but if you don’t need to buy it let’s give the Earth a break) things like not owning a car, body-feeding, using cloth diapers are part of that. Not that any of it is enough.
 
 For all this I’m happy to do the work. The kind you do every day because it needs to be done, not because it’s celebrated, because you’re who’s there and you know it matters. I’m even proud to. And maybe Mary Cassatt is proud of us too. I hope she had enough people being proud of her in her time.
+
+{%
+ include image-component.html 
+ img_key="feed-me__cassatt-photo"
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/feed-me-mary-cassatt-1914.jpeg"
+ alt="A black and white photo of a gray-haired white woman wearing a feathered hat, fur coat and long beaded necklace"
+ caption="Mary Cassatt in 1914"
+%}

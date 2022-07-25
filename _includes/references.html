@@ -1,10 +1,10 @@
 <div class="Post__References mt3">
-  <h4 class="subheading underlined mb1">References</h4>
-  <ol class="detail italic">
-    {%- if include.refs_list -%}
+  {%- if include.refs_list -%}
+    <h4 class="subheading underlined mb1">References</h4>
+    <ol class="detail italic">
       {%- for ref in include.refs_list -%}
         <li>{{ ref }}</li>
       {%- endfor -%}
-    {%- endif -%}
-  </ol>
+    </ol>
+  {%- endif -%}
 </div>

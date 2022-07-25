@@ -368,11 +368,27 @@ table td { border: 1px solid #e8e8e8; }
 
 @media (min-width: 500px) { .Post { padding-top: 2rem; } }
 
-.PostHeader__thumbnail { clip-path: inset(0); height: 10rem; width: 10rem; opacity: 75%; }
+.PostHeader__thumbnail { clip-path: inset(0); height: 10rem; width: 10rem; opacity: 75%; mix-blend-mode: hard-light; }
 
-.PostLink__thumbnail { clip-path: inset(0); height: 7rem; width: 9rem; opacity: 50%; transition: opacity 0.2s ease-in-out; }
+.PostLink__thumbnail { clip-path: inset(0); height: 7rem; width: 9rem; opacity: 50%; mix-blend-mode: luminosity; transition: opacity 0.2s ease-in-out, mix-blend-mode 0.2s ease-in-out; }
 
-.PostLink:hover .PostLink__thumbnail { opacity: 75%; }
+.PostLink:hover .PostLink__thumbnail { mix-blend-mode: hard-light; opacity: 60%; }
+
+.PostLink--featured { position: relative; height: 30rem; }
+
+.PostLink--featured h2 { background-color: white; padding: 0 0.5rem; color: black; }
+
+.PostLink--featured h3 { background-color: white; padding: 0 0.5rem; }
+
+.PostLink--featured__title-container { position: absolute; top: 4rem; left: 2rem; transform: translateY(50%); z-index: 2; gap: 0.5rem; }
+
+.PostLink--featured__illustration { position: absolute; left: 50%; top: 0; transform: translateX(-50%); clip-path: inset(0); height: 30rem; width: 24rem; opacity: 70%; }
+
+.PostLink--featured__thumbnail { position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 1; clip-path: inset(0); height: 20rem; width: 20rem; opacity: 70%; mix-blend-mode: luminosity; }
+
+.PostLink--featured:hover .PostLink--featured__illustration { opacity: 60%; }
+
+.PostLink--featured:hover .PostLink--featured__thumbnail { mix-blend-mode: hard-light; opacity: 60%; }
 
 .flex { display: flex; }
 
