@@ -101,9 +101,3 @@
     right: 20%;
   }
 }
-@media (min-width: map-get($breakpoints, lg)) {
-  .site-header__button {
-    top: 70%;
-    right: 30%;
-  }
-}

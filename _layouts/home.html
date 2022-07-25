@@ -4,12 +4,12 @@ layout: default
 
 <div class="home">
   <div class="md-flex flex-row flex-1">
-    <div class="md-w75">
-      <h3 class="mb_5 copy"><strong>Posts</strong></h3>
+    <div class="lg-w75">
+      <h3 class="mb2 mt2 copy"><strong>Posts</strong></h3>
       <ul class="m0 list-style-none">
         {%- if site.posts.size > 0 -%}
           {%- for post in site.posts -%}
-              <li class="PostLink mb1 flex flex-row">
+              <li class="PostLink mb2 flex flex-row">
                 <a class="PostLink__thumbnail mt_5 mr1" href="{{ post.url | relative_url }}">
                   <img src="{{ post.thumbnail }}" alt="thumbnail for {{post.title}}" />
                 </a>

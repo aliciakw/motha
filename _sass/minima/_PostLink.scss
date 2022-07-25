@@ -1,17 +1,13 @@
 .PostLink {
   &__thumbnail {
     clip-path: inset(0);
-    height: 5.5rem;
-    width: 6rem;
+    height: 7rem;
+    width: 9rem;
     opacity: 50%;
     transition: opacity $transition;
   }
 
   &:hover {
-    a {
-      color: $black;
-    }
-
     .PostLink__thumbnail {
       opacity: 75%;
     }

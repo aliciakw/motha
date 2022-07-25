@@ -26,11 +26,18 @@
     width: 100%;
     margin-bottom: 1rem;
   }
+
+  &__body {
+    p {
+      @include relative-font-size(1.25);
+      margin-bottom: 1.5rem;
+    }
+  }
 }
 
 @media (min-width: map-get($breakpoints, sm)) {
   .Post {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 }
 
