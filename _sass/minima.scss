@@ -3,20 +3,22 @@
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   1rem !default;
+$base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     2rem !default;
 
+$light-gray: #f7fcfc;
 $mint-green: #efffe5;
 $leaf-green: #78cc6e;
 $charcoal: #444;
+$blue-steel: #4e6467;
 $black: #111;
 
 $text-color:      $black !default;
-$background-color: $mint-green;
-$brand-color:      $leaf-green;
+$background-color: $light-gray;
+$brand-color:      $blue-steel;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -44,7 +46,7 @@ $transition: 0.2s ease-in-out;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    832px !default;
+$content-width:    900px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
@@ -225,5 +227,8 @@ $breakpoints: (
 @media (min-width: map-get($breakpoints, md)) {
   .md-flex-row {
     flex-direction: row;
+  }
+  .md-mt4 {
+    margin-top: 4rem;
   }
 }

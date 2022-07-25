@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -102,15 +101,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $leaf-green;
+  color: $black;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: inherit;
   }
 
   &:hover {
-    color: $black;
+    color: $blue-steel;
     text-decoration: none;
   }
 
