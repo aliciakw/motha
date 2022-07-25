@@ -332,7 +332,7 @@ table td { border: 1px solid #e8e8e8; }
 .Footer__image { width: 6rem; opacity: 0.5; }
 
 @media (min-width: 500px) { .Footer__input { width: auto; }
-  .Footer__image { width: 8rem; } }
+  .Footer__image { width: 7rem; } }
 
 .ImageComponent figure { max-width: 100%; margin: 2rem 0 1rem 0; }
 
