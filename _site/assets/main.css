@@ -329,10 +329,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .Footer__button:hover { text-decoration: underline; }
 
-.Footer__image { width: auto; }
+.Footer__image { width: 6rem; opacity: 0.5; }
 
 @media (min-width: 500px) { .Footer__input { width: auto; }
-  .Footer__image { width: 12rem; } }
+  .Footer__image { width: 8rem; } }
 
 .ImageComponent figure { max-width: 100%; margin: 2rem 0 1rem 0; }
 
@@ -366,7 +366,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .Post__body p { font-size: 22.5px; margin-bottom: 1.5rem; }
 
-@media (min-width: 500px) { .Post { padding-top: 3rem; } }
+@media (min-width: 500px) { .Post { padding-top: 2rem; } }
 
 .PostHeader__thumbnail { clip-path: inset(0); height: 10rem; width: 10rem; opacity: 75%; }
 

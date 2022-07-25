@@ -22,7 +22,8 @@
   }
 
   &__image {
-    width: auto;
+    width: 6rem;
+    opacity: 0.5;
   }
 
   @media (min-width: map-get($breakpoints, sm)) {
@@ -31,7 +32,7 @@
     }
 
     &__image {
-      width: 12rem;
+      width: 8rem;
     }
   }
 }
