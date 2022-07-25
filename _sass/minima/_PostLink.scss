@@ -30,6 +30,22 @@
       padding: 0 0.5rem;
     }
 
+    p {
+      background-color: white;
+      opacity: 80%;
+      width: 75%;
+      padding: 0.5rem;
+    }
+
+    button {
+      color: white;
+      background-color: $black;
+      border: 0;
+      margin-right: 6rem;
+      position: absolute;
+      z-index: 2;
+    }
+
     &__title-container {
       position: absolute;
       top: 4rem;

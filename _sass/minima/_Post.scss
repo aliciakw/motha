@@ -16,6 +16,11 @@
     overflow-wrap: break-word;
   }
 
+  &__archive {
+    border-top: 1px solid $charcoal;
+    padding-top: 4rem;
+  }
+
   &__References {
     ol {
       list-style-type: decimal;

@@ -360,6 +360,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .Post ol li { margin-bottom: 1rem; overflow-wrap: break-word; }
 
+.Post__archive { border-top: 1px solid #444; padding-top: 4rem; }
+
 .Post__References ol { list-style-type: decimal; }
 
 .Post__spacer { width: 100%; margin-bottom: 1rem; }
@@ -379,6 +381,10 @@ table td { border: 1px solid #e8e8e8; }
 .PostLink--featured h2 { background-color: white; padding: 0 0.5rem; color: black; }
 
 .PostLink--featured h3 { background-color: white; padding: 0 0.5rem; }
+
+.PostLink--featured p { background-color: white; opacity: 80%; width: 75%; padding: 0.5rem; }
+
+.PostLink--featured button { color: white; background-color: #111; border: 0; margin-right: 6rem; position: absolute; z-index: 2; }
 
 .PostLink--featured__title-container { position: absolute; top: 4rem; left: 2rem; transform: translateY(50%); z-index: 2; gap: 0.5rem; }
 

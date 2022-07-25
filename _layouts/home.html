@@ -7,7 +7,7 @@ layout: default
     <div class="lg-w75">
       {%- if site.posts.size > 0 -%}
         {%- for post in site.posts limit:1 -%}
-          <div class="flex flex-col items-start">
+          <div class="flex flex-col items-start pb2">
             {%- assign date_format = site.date_format | default: "%A, %B %e, %Y" -%}
             <span class="detail color-grey">{{ post.date | date: date_format }}</span>
             
@@ -18,6 +18,11 @@ layout: default
                   {{ post.title | escape }}
                 </h2>
                 <h3 class="italic subheading">{{ post.subtitle }}</h3>
+                <p>{{ post.excerpt}}...</p>
+              </div>
+
+              <div class="flex flex-row justify-end">
+                <button onclick="{{ post.url | relative_url }}">read more!</button>
               </div>
           
               <div class="PostLink--featured__thumbnail">
@@ -30,31 +35,10 @@ layout: default
           </div>
         {%- endfor -%}
       {%- endif -%}
-      <h3 class="mb2 mt4 copy"><strong>Archive</strong></h3>
-      <ul class="m0 list-style-none">
-        {%- if site.posts.size > 0 -%}
-          {%- for post in site.posts offset:1 -%}
-              <li class="PostLink mb2 flex flex-row">
-                <a class="PostLink__thumbnail mt_5 mr1" href="{{ post.url | relative_url }}">
-                  <img src="{{ post.thumbnail }}" alt="thumbnail for {{post.title}}" />
-                </a>
-                <div>
-                  {%- assign date_format = site.date_format | default: "%A, %B %e, %Y" -%}
-                  <span class="detail color-grey">{{ post.date | date: date_format }}</span>
-                  <h3>
-                    <a class="post-link uppercase" href="{{ post.url | relative_url }}">
-                      {{ post.title | escape }} 
-                    </a>
-                  </h3>
-                  <p class="italic">{{ post.subtitle }}</p>
-                  {%- if site.show_excerpts -%}
-                  {{ post.excerpt }}
-                 {%- endif -%}
-                </div>
-              </li>
-          {%- endfor -%}
-        {%- endif -%}
-      </ul>
+      
+      <div class="flex flex-col mt4">
+        {%- include archive.html -%}
+      </div>
     </div>
   </div>
 </div>
