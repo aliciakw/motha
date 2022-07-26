@@ -21,10 +21,10 @@ Upon entering, visitors first encounter a life-sized, beaded suit of armor, nest
 {%
  include double-image-component.html
  img_key_two="talwst__knight-diorama"
- src_two="https://format-com-cld-res.cloudinary.com/image/private/s--dWZ_0RMF--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e42850d2e43af68f9c786a5841b3554e/CSA-34a-SC.jpg?1200"
+ src_two="https://aliciawillett.s3.amazonaws.com/images/blog/santiago-artist-as-knight.png"
  caption_two="Artist as Knight (self portrait). Curtis Talwst Santiago. 2018"
  img_key_one="talwst__install-1"
- src_one="https://format-com-cld-res.cloudinary.com/image/private/s--YtKPvDxr--/c_limit,g_center,h_65535,w_2500/fl_keep_iptc.progressive,q_95/IMG_2004_paj12w.jpg?2500"
+ src_one="https://aliciawillett.s3.amazonaws.com/images/blog/santiago-cant-i-alter.jpeg"
  caption_one="Installation view at the Drawing Center in February of 2020."
 %}
 
@@ -36,20 +36,20 @@ The entrance to the show immediately introduces Sir Dingolay in  the form of  hi
 {%
  include double-image-component.html
  img_key_one="talwst__morte-do-cavaliero"
- src_one="https://format-com-cld-res.cloudinary.com/image/private/s--atUKTDMv--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/e249373eab34260530f3d240a269f61a/CSA-9-PTG.jpg?1200"
+ src_one="https://aliciawillett.s3.amazonaws.com/images/blog/santiago-a-morte-de-cavaliero.jpeg"
  caption_one="\"A morte do cavaleiro prateado.\" Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018"
  img_key_two="talwst__lay-ahead"
- src_two="https://format-com-cld-res.cloudinary.com/image/private/s--njjmuxtj--/c_limit,g_center,h_65535,w_2500/fl_keep_iptc.progressive,q_95/v1/e315e6f6845a97535d269cfff288e67f/CSA-8-PTG.jpg?1800"
+ src_two="https://aliciawillett.s3.amazonaws.com/images/blog/santiago-whatever-lay-ahead.jpeg"
  caption_two="\"Whatever lay ahead he had already accepted\". Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018."
 %}
 
 {% 
  include double-image-component.html
  img_key_one="talwst__ancestral-vision"
- src_one="https://format-com-cld-res.cloudinary.com/image/private/s--xejNTiIN--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/60540d89c0012c97d3e5fe228282b82f/CSA-7-PTG.jpg?1200"
+ src_one="https://aliciawillett.s3.amazonaws.com/images/blog/santiago-red-face-ancestral-vision-1.jpeg"
  caption_one="\"Red Face Ancestral Vision 1.\" Spraypaint, oil, charcoal, pastel, acrylic on canvas. 2018"
  img_key_two="talwst__promise"
- src_two="https://format-com-cld-res.cloudinary.com/image/private/s--96jRsjOb--/c_limit,g_center,h_65535,w_1200/fl_keep_iptc.progressive,q_95/v1/17bb9e11cf6b1ef5b5d7090a21b25d7a/CSA-10-PTG.jpg?1200"
+ src_two="https://aliciawillett.s3.amazonaws.com/images/blog/sanitago-the-four-of-them-made-a-promise.jpeg"
  caption_two="\"The Four of Them Made a Promise.\" Spray paint, oil, charcoal, pastel, acrylic on canvas. 2018"
 %}
 
