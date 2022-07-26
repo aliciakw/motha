@@ -366,9 +366,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .Post__spacer { width: 100%; margin-bottom: 1rem; }
 
-.Post__body p { font-size: 20px; margin-bottom: 1.5rem; }
+.Post__body p { font-size: 16.8px; line-height: 1.5rem; margin-bottom: 1.5rem; }
 
-@media (min-width: 500px) { .Post { padding-top: 2rem; } }
+@media (min-width: 500px) { .Post { padding-top: 2rem; }
+  .Post__body p { font-size: 18.4px; line-height: 1.55rem; } }
 
 .PostHeader__thumbnail { clip-path: inset(0); height: 10rem; width: 10rem; opacity: 75%; mix-blend-mode: hard-light; }
 

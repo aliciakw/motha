@@ -34,7 +34,8 @@
 
   &__body {
     p {
-      @include relative-font-size(1.25);
+      @include relative-font-size(1.05);
+      line-height: 1.5rem;
       margin-bottom: 1.5rem;
     }
   }
@@ -43,6 +44,10 @@
 @media (min-width: map-get($breakpoints, sm)) {
   .Post {
     padding-top: 2rem;
+  }
+  .Post__body p {
+    @include relative-font-size(1.15);
+    line-height: 1.55rem;
   }
 }
 
