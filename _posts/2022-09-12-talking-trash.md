@@ -29,7 +29,7 @@ refs_list:
 
 {% 
  include double-image-component.html
- img_key_one="trash-talk__ancestral-castor"
+ img_key_one="trash-talk__castor"
  src_one="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-castor-in-studio.jpg"
  caption_one="Jesse Castor"
  img_key_two="trash-talk__thayer"
@@ -45,47 +45,74 @@ __Molly:__ I’m just gonna go with what my Lex bio says, which is “I’m a re
 
 #### Q: How's Life?
 
-__Jesse:__ Life is very interesting. I think life is very good right now. I have had a lot of chaotic things happen to me this year, and even just this month alone, but despite all of the chaos and all of the impostor syndrome, I think I’m showing up.
+__Jesse:__ Life is very interesting. I have had a lot of chaotic things happen to me this year, and even just this month alone, but despite all of the chaos and all of the impostor syndrome, I think I’m showing up.
 
-__Molly:__ Life is really hard right now, a lot of destruction in my life as well that I’m still experiencing, but also life is really magical and abundant too. High highs and low lows I’d say. What about you interviewer?!
-
-__Alicia:__ Gah I can't just be a neutral body? Life for me is very transitional. I'm steadily reentering the world after a long period of limbo. Also occasionally finding myself the grips of climate anxiety when I think about the future, but when I stay in the day to day and just appreciate, its amazing. Being here is amazing. I’ve also been thinking a lot about what it means to prepare a kid to thrive in a world shaped by the climate crisis. I’m sort of an emotionally repressed person and I usually process things through writing and visual art so thanks for making the space to talk about this by sharing about your art practice. Anyway.
+__Molly:__ Life is really hard right now, a lot of destruction in my life, but also life is really magical and abundant too. High highs and low lows I’d say.
 
 #### Q: What kind of art do you make, and how do you use trash?
 
-__Jesse:__ I’m a printmaker first and foremost — that at least was my introduction to trash art. I do a lot of images of “things.” I do a lot of chairs and windows and row homes. That’s iconography that I always go back to because I like thinking about the ideas of home and comfort items and things that symbolize transition in life, which can be like a living space, or a chair that you really like that you feel comfortable in. 
+__Jesse:__ I’m a printmaker first and foremost. I do a lot of images of “things.” I do a lot of chairs and windows and row homes. That’s iconography that I always go back to because I like thinking about the ideas of home and comfort items and things that symbolize transition in life.
 
-Since having my entire practice change up I’ve been focusing on using the materials that I have. Lately I’ve been doing some collage, and I’ve been using old prints that have lost their purpose or their meaning in what I’m doing now and cutting them up and repurposing them that way. I also have a bunch of handmade paper that I made out of leaves and denim and all kinds of crazy stuff and am trying to figure out new ways of using those that’s outside of printmaking, so that’s been really fun too.
-
-There’s also a bit of sculpture thrown in there, when I feel saucy. I was doing cardboard sculptures of row homes for a little while, inspired by this house that I moved out of this past winter that I called Mouse House. I had all these leftover supplies from moving and packing and trying to seal up all the holes in my house where all the mice were coming in, so that was really cathartic.
+Since having my entire practice change up I’ve been focusing on using the materials that I have. Lately I’ve been doing some collage, using old prints that have lost their purpose or their meaning. I also have a bunch of handmade paper that I made out of leaves and denim and all kinds of crazy stuff. And I was doing cardboard sculptures of row homes for a little while, inspired by this house that I moved out of this past winter that I called Mouse House. I had all these leftover supplies from moving and packing and trying to seal up all the holes in my house where all the mice were coming in, so that was really cathartic.
 
 __Molly:__ I make Trash Art. (laughs). TM. I like to make functional objects the most, especially ones that go on the body, or engage with the body, like furniture, shoes, clothes. Even if it’s going in a window, I still feel like it’s functional. I guess all art is functional, because it’s making you happy. Or making you something. I also make looms out recycled materials, like bottle caps, peanut butter caps, frisbees, or anything around that size. I like to use my drill and just drill a bunch of holes and make a loom. I also use textiles, which are always scrap fabrics, so I guess it counts as trash. A lot of plastic, plastic bags, hard plastics, fishing rope, vegetable netting, fabric, twine, ribbon, really anything, everything, especially colorful stuff.
 
+{% 
+ include double-image-component.html
+ img_key_one="trash-talk__castor-work-1"
+ src_one="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-castor-installation.jpeg"
+ caption_one="Jesse Castor"
+ img_key_two="trash-talk__castor-work-2"
+ src_two="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-castor_window-panes_2021.jpeg"
+ caption_two="Molly Thayer"
+%}
+
+{% 
+ include double-image-component.html
+ img_key_one="trash-talk__thayer-work-1"
+ src_one="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-thayer-weaving.jpeg"
+ caption_one="Weaving and loom table at a flea market"
+ img_key_two="trash-talk__thayer-work-2"
+ src_two="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-thayer-shirt.jpeg"
+ caption_two="Incorporating recycled textiles and other mmaterials pushes the limits of what a shirt should be"
+%}
+
 #### Q: Why do you use trash?
 
-__Molly:__  I didn’t feel like I could be an artist growing up, but I always did sh*t. I would take my bathing suits and cut them up and turn them into different bathing suits, and just go in my room and be like  “grrr” *flex* and I’d show them to my mom and she’d be like “don’t rip your clothes up.” nd so then I always felt like that was something I had to do in private, destroying things and turning them into new things. And then I went to college was like, finally out of my parents wrath. I felt like a rubber band that just *pfffft*. My first winter term at Oberlin, I was like “Ok, I’m going to do my own project and I’m going to do recycled art”. I think I had the image of bottle cap art, and I was just in my basement at home for a month and went on YouTube and found out about weaving with plastic bags and about plarn. I started making looms using cardboard, which if you learn about weaving on YouTube, you’re gonna be making a cardboard loom. A made a bunch of big weavings using plarn, and I was just like “it’s over, it’s over for these h*s!” I felt like I had just cracked the code to life. I don’t know why I thought to do recycled art. I just wanted to. I knew it existed. And that just felt like it cracked the code. It’s so freaking accessible, free, queer, neurodivergent. The pedagogy — I love the word pedagogy — of recycled materials is so freaking amazing. It asks you to play and communicate and transform, and change cultural meaning.
+__Jesse:__ For a while I did fall into that mindset that comes from going to art school and hanging out with people who do go to galleries and museums, thinking “I need to make art that looks like this to be a fine artist”. But by the end of my time there, it just wasn’t the thing that was making me happy. So I went back to doing what I know, which is using what I have at my disposal: repurposed or reclaimed items that I have found and repurposed, or found visually interesting and translated it into something that it reminded me of.
 
-__Jesse:__ I did go to art school, but it was kind of just a means to an end for me. It was also where I kind of fell back in love with trash. For a while I did fall into that mindset that comes from going to art school and hanging out with people who do go to galleries and museums, thinking “I need to make art that looks like this to be a fine artist”. But by the end of my time there, it just wasn’t the thing that was making me happy. So I went back to doing what I know, which is using what I have at my disposal: repurposed or reclaimed items that I have found repurposed, or found visually interesting and translated it into something that it reminded me of.
+__Molly:__  I didn't feel like I could be an artist growing up, but I always did sh\*t. I would take my bathing suits and cut them up and turn them into different bathing suits, and just go in my room and be like  “grrr” \*flex\* and I’d show them to my mom and she’d be like “don’t rip your clothes up.” And then I went to college and was like, finally out of my parents wrath! My first winter term at Oberlin, I was on YouTube and found out about weaving with plastic bags and about plarn (To define “plarn”: “plastic + yarn = plarn”). I started making looms using cardboard, which, if you learn about weaving on YouTube, you’re gonna be making a cardboard loom. I made a bunch of big weavings using plarn, and I was just like “it’s over, it’s over for these h\*s!” I felt like I had just cracked the code to life. I don’t know why I thought to do recycled art. I just wanted to. It’s so freaking accessible, free, queer, neurodivergent. The pedagogy — I love the word 'pedagogy' — of recycled materials is so freaking amazing. It asks you to play and communicate and transform, and change cultural meaning.
+
+{%
+ include image-component.html 
+ img_key="trash-talk__filthadelphia"
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-junk-yard-fire.jpeg"
+ caption="A fire a waste management facility in southwest Philadelphia last November"
+%}
 
 #### Q: We live in Philly, which been endearingly described as a “trash tornado” or “Filthadelphia”. How do you feel about that?
 
 __Molly:__ How I feel about it is sad, that there is trash everywhere. There is so much pollution, and it’s centered on communities that are already suffering the most from other issues that are going on in society.
 
-But I feel like because of all the infrastructural neglect there is such a cool entrepreneurial reuse culture here. People will just do weird shit with weird materials just like off the side of their houses, and I’ll just drive by and be like “whoa, everyone is just plarning!”. (To define “plarning”: “plastic + yarn = plarn”.) There are a bunch of amazing organizations dealing with trash in Philly. Just to name-drop a few, we’ve got Trash Academy, which is a part of Mural Arts, Rabbit Recycling is a niche recycling company, and they don’t exist many places in the US, it’s pretty unique niche to have a small business doing hard-to-recycle materials. And then there’s RARE, the recycled arts residency, and the Queer Materials Lab. Fabscrap also just moved to Philly.  This is the stuff I’m a huge nerd about so I’ve found everything you can find and tried to work for every goddamn last one of them.
+But I feel like because of all the infrastructural neglect there is such a cool entrepreneurial reuse culture here. People will just do weird shit with weird materials just like off the side of their houses, and I’ll just drive by and be like “whoa, everyone is just plarning!”. There are a bunch of amazing organizations dealing with trash in Philly. Just to name-drop a few, we’ve got Trash Academy, which is a part of Mural Arts, Rabbit Recycling is a niche recycling company, and they don’t exist many places in the US, it’s pretty unique niche to have a small business doing hard-to-recycle materials. And then there’s RARE, the recycled arts residency, and the Queer Materials Lab. Fabscrap also just moved to Philly.  This is the stuff I’m a huge nerd about so I’ve found everything you can find and tried to work for every goddamn last one of them.
 
 __Jesse:__ I definitely see it. It’s funny, coming from somewhere so close by in New Jersey that it’s essentially a Philly suburb, and then moving into the city, I remember my parents being like “why do you want to go to Philly, it’s so dirty, and people are so mean”, and this that and the other. And I’m like, “first of all, what am I gonna do, stay in New Jersey? No.” so it’s the next closest big city, and there’s stuff happening there that I want to see, and I want to go. And that’s what I did. And living in the area of South Philly that I am…the neighborhood is dirty, there is that trash tornado in that area. So it’s weird, having my former preconceptions of Philadelphia, and then coming here and seeing it first hand. I feel like the longer I live here the more I see that there’s more to it than meets the eye. There are communities that get together and work around making their areas better. My neighborhood just recently got together and had a community cleanup, and it was really great and you got to meet your neighbors, and that’s something that you don’t get in other places in the city that are already really developed. So I have a lot of respect for Filthadelphia.
 
+{% 
+ include double-image-component.html
+ img_key_one="trash-talk__castor-scaffolds"
+ src_one="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-castor_scaffolds_2021.jpeg"
+ caption_one="Jesse Castor, \"Scaffolds\", 2021"
+ img_key_two="trash-talk__thayer-headpiece"
+ src_two="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-thayer-headpiece.jpeg"
+ caption_two="A headpiece made out of recycled netting"
+%}
+
 #### Q: Fine art is traditionally a luxury industry. What does it feel like to be making fine art out of trash? Do you feel like trash art belongs all the places that fine art belongs? Do you make fine art?
 
-__Molly:__ I think I make fine art. My art is fine. I don’t have an art degree, I didn’t go to art school. In college I created my own major called Innovative Community Recycling (I’m obsessed).
+__Molly:__ I make fine art. My art is fine. Trash Art deserves to be anywhere any other art is, but I don’t really care for it to be, or am trying for it to be. I feel like I’m completely outside of that world. I have ADHD, museums are not my happy place. Even art galleries with all the hipsters, it’s like, “What’s going on here? I’m confused.” I like things that are in the real world. Your question made me smile because trash can absolutely be so luxe and so fancy with doing very little. All you have to do is carefully deconstruct and clean it. I see the objects I work with as just beautiful objects that aren’t trash. 
 
-Sure, Trash Art deserves to be anywhere any other art is, but I don’t really care for it to be, or am trying for it to be. I feel like I’m completely outside of that world. I have ADHD, museums are not my happy place. Even art galleries with all the hipsters, it’s like, “What’s going on here? I’m confused.” I like things that are in the real world.
-
-Your question made me smile a lot because I definitely think trash can absolutely be so luxe and so fancy with doing very little. Like, all you have to do is carefully deconstruct and clean it. I see the objects I work with as just beautiful objects that aren’t trash. They are beautiful objects, relics that I’ve found that have so much meaning already in them and are vessels for meaning to be attributed onto.
-
-__Jesse:__ It’s always been a very imaginative process, as opposed to something that is like I’m going to see this thing and recreate exactly what’s in front of me. I can have a very specific idea of something, and then I can try and make it out of whatever I had around, and it never really comes out the way that you think it will in your brain, but that’s always way more fun than whatever you had in your brain. And I feel like that’s exactly what fine art is about. It’s about that exploration, that discovery that things are maybe a little bit different than what you perceived. 
-
-I don’t think Trash Art needs to be made for the purpose of being fine art but I absolutely think that it is fine art. I don’t think it needs to be based around the material that you work in for it to be ‘museum quality’.
+__Jesse:__ I don’t think Trash Art needs to be made for the purpose of being fine art but I absolutely think that it is fine art. I don’t think it needs to be based around the material that you work in for it to be ‘museum quality’. It’s always been a very imaginative process, as opposed to something that is like "I’m going to see this thing and recreate exactly what’s in front of me". And I feel like that’s exactly what fine art is about. It’s about that exploration, that discovery that things are maybe a little bit different than what you perceived.
 
 #### Q: Lately I’ve been starting to question whether the way I make art is authentic to my lifestyle and the society we live in. We’re in the middle of a climate crisis, in the Age of Trash, in Filthadelphia. Like it or not it’s just true, and it’s impossible to ignore it. My daily life is pretty planet-conscious and I enjoy things with some history to them — I live in an old house, I thrift, bike, recycle, compost…but when I go to make my art I feel like I need to buy new things — paint, brushes, canvas, chemicals. If I don’t, I’m not showing love to the things I’m making; I’m ‘cheaping out’, I’m compromising. But listening to you both talk about the way you approach art, it doesn’t sound like your compromising at all. Even when you work with trash, it feels like you love your materials just as much.
 
@@ -101,18 +128,29 @@ __Jesse:__  Where I went, PAFA, even though it inches its way into the mainstrea
 
 I think the biggest leap PAFA ever made was to use odorless spirits instead   of turpentine — odorless spirits are still not good for you. I can’t speak for other institutions, but we still don’t know a ton of it. There are new materials coming out all the time. Acrylic paint is so new, we have no idea of the longterm impacts of it, we don’t know how conservation is going to be for it, and that’s just another instance of plastic making its way into the mainstream.  I don’t know what the future holds for environmentally conscious art supplies, other than just trash. I would love to know. I should look that up.
 
-#### Q: Do you think artists specifically have a role in the climate crisis? Perhaps to help people imagine how we can build a cultural bridge through it? Has the state of the environment affected your decision to become a trash artist?
+{%
+ include image-component.html 
+ img_key="trash-talk__trash-academy"
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-trash-academy-planter.jpeg"
+ caption="A planter designed by Trash Academy project, and offshoot of Philadelphia Mural Arts"
+%}
 
-__Molly:__ I definitely think of my practice as being in and for the Apocalypse. The apocalypse being the one that is currently happening and the one that will continue to happen. 
-
-I identify as an artist, and I do want to push these things. I’m not a math guy, I’m not a reading guy, I just like shapes and textures and stuff like that. I can’t not think about community when I think about my art practice. I just want it to be an interactive, collaborative thing, and I just want everyone to be expressing, man! I feel like non-objective and subjective ways of understanding ourselves in the world are the most important form of information that there is.
+#### Q: Do you think artists specifically have a role in the climate crisis? Perhaps to help people imagine a different future?
 
 __Jesse:__ I think everybody has a role in the environmental crisis. I think it’s something that’s on everybody’s minds all the time, no matter what you do or where you are. My first experiences with repurposing materials didn’t come from an environmental concern, but I find a lot of solace in nature, and I want to be able to do my part, so as an artist I’ll do what I can. But I don’t think I necessarily hold every artist to that same belief. 
 
 I don’t think every artist needs to be doing something specifically for the purpose of environmental conservation or political activism. I think all those things make their way into art whether you want them to or not, just because art is us. We are our art and our art is us. Whatever you’re making, even if it’s abstract is always a reflection of what you’re feeling and thinking about, whether that’s politics or the environment or your boyfriend just broke up with you — all of that stuff just kind of comes through.
 
+__Molly:__ I definitely think of my practice as being in and for the Apocalypse. The apocalypse being the one that is currently happening and the one that will continue to happen. As an artist, and I do want to push these things. I’m not a math guy, I’m not a reading guy, I just like shapes and textures and stuff like that. I can’t not think about community when I think about my art practice. I just want it to be an interactive, collaborative thing, and I just want everyone to be expressing, man!
 #### Q: If there wasn’t an apocalypse do you think you’d still use trash?
+
+__Jesse:__  It’s hard to say. I think at the end of the day, I just love the challenge of changing something from what I knew it was into something different; and, no matter what material I’m working with, I’m always going to be striving to be doing that. Even if I bought a brand new tube of oil paint, I’d try to make it do something it wouldn’t usually be used for. At the end of the day maybe I made a difference, maybe not.
 
 __Molly:__ How would I know what life would be like if we weren’t living in an apocalypse? That would mean that life would be completely different. But I mean the act of picking something up and making something out of it… I think I would always be using found materials, [but maybe it would mean something different]. Everything is just a material from the world. Even the concept of a recycled material is silly. Everything has had a life.
 
-__Jesse:__  It’s hard to say. I think at the end of the day, I just love the challenge of changing something from what I knew it was into something different; and, no matter what material I’m working with, I’m always going to be striving to be doing that. Even if I bought a brand new tube of oil paint, I’d try to make it do something it wouldn’t usually be used for. At the end of the day maybe I made a difference, maybe not.
+{%
+ include image-component.html 
+ img_key="trash-talk__the-garden"
+ src="https://aliciawillett.s3.amazonaws.com/images/blog/trash-talk-castor-modeling-thayer.png"
+ caption="Jesse models one of Molly's designs, a dress made from onion bags."
+%}
