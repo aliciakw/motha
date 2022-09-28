@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thank You For Feeding Me"
+title:  "Feed Me"
 subtitle: Mary Cassatt, Women Workers Mega-Stan
 thumbnail: "https://aliciawillett.s3.amazonaws.com/images/blog/thumbnails/feed-me-cassatt-thumbnail.jpg"
 illustration: "https://aliciawillett.s3.amazonaws.com/images/blog/feed-me-cassatt-the-childs-bath.jpeg"
