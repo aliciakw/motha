@@ -6,8 +6,9 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   {%- feed_meta -%}
-
-  {%- include google-analytics.html -%}
+  {%- if jekyll.environment == 'production' -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
 
   <script type="text/javascript" src="/scripts/preloadImage.js"></script>
 </head>
